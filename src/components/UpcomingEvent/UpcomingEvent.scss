@@ -5,9 +5,9 @@ $grey: #c4c4c4;
     // text-align: center;
 }
 
-.upcomingEventCard:nth-child(1) {
-    margin-left: 0 !important;
-  }
+// .upcomingEventCard:nth-child(1) {
+//     margin-left: 0 !important;
+//   }
 
 .calendarEvent{
     max-width: 25em;
@@ -49,7 +49,7 @@ $grey: #c4c4c4;
 .upcomingTitle{
     // font-family: "Montserrat";
     margin: 0.3em 0 0.3em 0;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .upcomingDesc{
