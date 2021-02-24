@@ -2,7 +2,7 @@
     font-family: "SourceCodePro";
 }
 
-.aboutPage .navy {
+#aboutValues {
     .primary__hero-img-multi{
         min-height: 200px;
         // left: 0;
@@ -24,6 +24,10 @@
     }
 }
 
+.aboutPage #aboutValues .col{
+    justify-content: space-evenly !important;
+}
+
 .staffDirectoryWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -31,13 +35,17 @@
     h1{
         margin-top: 1em;
     }
+    strong{
+        margin-bottom: 1em;
+    }
 }
 
-.aboutPage .teal {
+#aboutLetter {
     .primary__hero-text-wrapper-paragraph{
         line-height: 32px;
         max-width: 900px;
-        padding-top: 2em;    
+        padding-top: 2em; 
+        text-align: justify;   
     }
 
     strong ~ p {

@@ -12,7 +12,7 @@ function Contact(props) {
   return (
     <div className="contactPage">
       <ScrollToTopOnMount />
-      <BannerImage name='hero' banner="ContactBanner" alt="Contact banner" title="Contact Us"/>
+      <BannerImage name='hero' banner="ContactBanner" alt="Contact banner" title="CONTACT US"/>
       <ContactForm />
       <PrimaryComponent {...contactObjOne} />
       <Footer />

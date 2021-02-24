@@ -18,6 +18,7 @@ function PrimaryComponent({
   body2,
   body3,
   body4,
+  body5,
   buttonLabel,
   buttonColour,
   buttonLink,
@@ -141,11 +142,11 @@ function PrimaryComponent({
                     </h1>
                   )}
                   {headers && (
-                    <strong
+                    <h2
                       className={lightText ? "subHeading" : "subHeading dark"}
                     >
                       {headers[0]}
-                    </strong>
+                    </h2>
                   )}
                   <p
                     className={
@@ -157,11 +158,11 @@ function PrimaryComponent({
                     {body}
                   </p>
                   {headers && (
-                    <strong
+                    <h2
                       className={lightText ? "subHeading" : "subHeading dark"}
                     >
                       {headers[1]}
-                    </strong>
+                    </h2>
                   )}
                   <p
                     className={
@@ -173,11 +174,11 @@ function PrimaryComponent({
                     {body2}
                   </p>
                   {headers && (
-                    <strong
+                    <h2
                       className={lightText ? "subHeading" : "subHeading dark"}
                     >
                       {headers[2]}
-                    </strong>
+                    </h2>
                   )}
                   <p
                     className={
@@ -189,11 +190,11 @@ function PrimaryComponent({
                     {body3}
                   </p>
                   {headers && (
-                    <strong
+                    <h2
                       className={lightText ? "subHeading" : "subHeading dark"}
                     >
                       {headers[3]}
-                    </strong>
+                    </h2>
                   )}
                   <p
                     className={
@@ -203,6 +204,22 @@ function PrimaryComponent({
                     }
                   >
                     {body4}
+                  </p>
+                  {headers && (
+                    <h2
+                      className={lightText ? "subHeading" : "subHeading dark"}
+                    >
+                      {headers[4]}
+                    </h2>
+                  )}
+                  <p
+                    className={
+                      lightText
+                        ? "primary__hero-body"
+                        : "primary__hero-body dark"
+                    }
+                  >
+                    {body5}
                   </p>
                   {signature && (
                     <p className="primary__hero-body dark signature">

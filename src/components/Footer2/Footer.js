@@ -43,6 +43,13 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
+            <Link to="/Projects"><h2>Projects</h2></Link>
+            <HashLink smooth to="/Projects#projectHighlights">Highlights</HashLink>
+            <HashLink smooth to="/Projects#projectPortfolio">Portfolio</HashLink>
+          </div>
+        </div>
+        <div className="footer-link-wrapper">
+          <div class="footer-link-items">
             <Link to="/Apply"><h2>Apply</h2></Link>
             <HashLink smooth to="/Apply#ApplyBanner">Apply</HashLink>
             <HashLink smooth to="/Apply#applyClient">FAQ</HashLink>

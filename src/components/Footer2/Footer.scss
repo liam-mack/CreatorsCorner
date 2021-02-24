@@ -80,18 +80,19 @@ $white: #ffffff;
 
 .footer-row {
   display: flex;
-  width: 160px
+  width: 160px;
+  margin-top: 1em;
 }
 
 .footer-mail {
   max-width: 1.5em;
   max-height: 1em;
-  margin: auto 0.5em auto 0;
+  margin-right: 0.5em;
 }
 
 .footer-email{
   text-decoration: underline !important;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .footer-socials-img {
@@ -99,7 +100,7 @@ $white: #ffffff;
 }
 
 .footer-logo-img{
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
 }
 
 // Socials END

@@ -21,6 +21,10 @@ $white: #ffffff;
   margin-top: 25em;
 }
 
+.homePage .primary__hero-section {
+  margin-top: 35em;
+}
+
 .primary__hero-section ~ .primary__hero-section, .gridComponent ~ .primary__hero-section, .eventSection ~ .primary__hero-section {
   margin-top: -2.1em;
   // margin-top: 0;
@@ -33,9 +37,7 @@ $white: #ffffff;
 
 .row {
   display: flex;
-//   margin-right: -15px;
-//   margin-bottom: -15px;
-//   margin-left: -15px;
+
   flex-wrap: wrap;
   align-items: stretch;
 }
@@ -50,16 +52,14 @@ $white: #ffffff;
   margin: 0 auto 1em auto;
   flex: 1;
   flex-basis: 40%;
-//   max-width: 50%;
 }
 
 .column {
   margin: auto;
   display: flex;
-  // flex: column;
-  // text-align: center;
+
   p{
-    width:110%
+    width:100%
   }
 }
 
@@ -82,6 +82,7 @@ $white: #ffffff;
 
 .subHeading {
   font-size: 23px;
+  margin-bottom: 1em;
 }
 
 .top-line {
@@ -93,9 +94,10 @@ $white: #ffffff;
 
 .primary__hero-body {
   max-width: 100%;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   margin: 0 0 1em 0;
+  text-align: justify;  
 }
 
 /* Conditional bold styling based on props*/
@@ -243,7 +245,7 @@ img {
 
 /* Staff image styling for PrimaryComponent*/
 .primary__pic-link {
-  max-height: 121px;
+  max-height: 60px;
   display: block;
   margin: auto;
 }
@@ -261,6 +263,10 @@ img {
 
 .pictureSubtitle {
   margin-bottom: 1em;
+  line-height: 28px;
+  text-align: justify;
+  max-width: 70%;
+  margin: auto;
 }
 
 .buttonWrapper {
@@ -324,8 +330,12 @@ img {
   .col {
     max-width: 100%;
     min-width: 100%;
-    display: block !important;
+    display: block;
     margin: 0 0 2em 0;
+  }
+
+  #homeFollow .col, #contactFollow .col{
+    display: flex !important
   }
 }
 

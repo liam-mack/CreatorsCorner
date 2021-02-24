@@ -1,3 +1,10 @@
-.homePage .primary__hero-body{
-    font-style: italic;
+.homePage .primary__hero-body {
+  font-style: italic;
+}
+
+#homeServices {
+  .columnTitle {
+    text-align: start;
+    margin-bottom: 0em;
+  }
 }
