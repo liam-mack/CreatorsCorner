@@ -31,7 +31,9 @@
     {
       "id": 5,
       "name": "Simone Foster",
-      "image": "/teamimages/simoneFoster.jpg"
+      "image": "/teamimages/simoneFoster.jpg",
+      "link": "https://www.linkedin.com/in/simone-foster-2a70a1164/",
+      "linkedIn": true
     },
     {
         "id": 6,
