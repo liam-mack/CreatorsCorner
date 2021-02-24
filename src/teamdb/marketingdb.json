@@ -29,7 +29,12 @@
       "linkedIn": true
     },
     {
-        "id": 5,
+      "id": 5,
+      "name": "Simone Foster",
+      "image": "/teamimages/simoneFoster.jpg"
+    },
+    {
+        "id": 6,
         "name": "Parmjit Lamba",
         "image": "/teamimages/ParmjitLamba.png",
         "link": "https://www.linkedin.com/in/parmjit-lamba-676b101a3",
