@@ -11,21 +11,27 @@
     "id": 2,
     "name": "Blal Idrees",
     "position": "VP Internal",
-    "image": "/teamimages/BlalIdrees.png"
+    "image": "/teamimages/BlalIdrees.png",
+    "link": "https://www.linkedin.com/in/blal-idrees-aa07201a5/",
+    "linkedIn": true
 
   },
   {
     "id": 3,
     "name": "Brandon Long",
     "position": "VP External",
-    "image": "/teamimages/BrandonLong.png"
+    "image": "/teamimages/BrandonLong.png",
+    "link": "https://www.linkedin.com/in/brandonlong97/",
+    "linkedIn": true
 
   },
   {
     "id": 4,
     "name": "Samira Mehdi",
     "position": "VP Operations",
-    "image": "/teamimages/SamiraMehdi.png"
+    "image": "/teamimages/SamiraMehdi.png",
+    "link": "https://www.linkedin.com/in/samira-mehdi-32ba661a3",
+    "linkedIn": true
 
   }
 ]
