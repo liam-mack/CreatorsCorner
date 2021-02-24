@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+@font-face {
+  font-family: "SourceCodePro";
+  src: url("./fonts/SourceCodePro-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvenirRoman";
+  src: url("./fonts/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvenirBook";
+  src: url("./fonts/Metropolis-Bold.otf") format("opentype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span{
+  font-family: "SourceCodePro";
+}
+
+strong{font-family: "AvenirBook"}
+
+p,
+a,
+small
+{
+  font-family: "AvenirRoman"
+}
+  

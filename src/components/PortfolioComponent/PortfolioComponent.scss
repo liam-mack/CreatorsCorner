@@ -1,0 +1,60 @@
+$navy: #2A3240;
+
+
+// .portfolioComponent{
+//     margin-top: 28em;
+// }
+
+.portfolioRow{
+    margin-bottom: 2em;
+}
+
+.portfolioColumn{
+    max-width: 400px !important;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+    // width: 50%
+}
+
+.portfolio-item-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+.portfolio-item-title{
+    color: #ffffff;
+    font-family: "SourceCodePro";
+    font-size: 36px;
+    text-align: center    
+}
+
+.portfolio-item-date{
+    color: #ffffff;
+    text-align: center    
+}
+
+.workTogether{
+    max-width: 50%;
+    margin: 1em auto 2em auto;
+    font-size: 23px;
+    line-height: 32px;
+    color: $navy
+}

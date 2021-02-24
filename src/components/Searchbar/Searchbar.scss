@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    // padding: 4rem
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+.searchbar {
+    width: 50%
+}
+
+.searchbar:focus {
+    outline-width: 0;
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Yasmin Mehdi",
+    "position": "Creative Director & President",
+    "image": "/teamimages/YasminMehdi.png",
+    "link": "https://www.linkedin.com/in/yasminmehdi/",
+    "linkedIn": true
+  },
+  {
+    "id": 2,
+    "name": "Blal Idrees",
+    "position": "VP Internal",
+    "image": "/teamimages/BlalIdrees.png"
+
+  },
+  {
+    "id": 3,
+    "name": "Brandon Long",
+    "position": "VP External",
+    "image": "/teamimages/BrandonLong.png"
+
+  },
+  {
+    "id": 4,
+    "name": "Samira Mehdi",
+    "position": "VP Operations",
+    "image": "/teamimages/SamiraMehdi.png"
+
+  }
+]

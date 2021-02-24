@@ -1,0 +1,177 @@
+$peach: #fab96c;
+$yellow: rgba(255, 209, 5, 0.65);
+$purple: rgba(102, 45, 145, 0.65);
+$lime: #e0e98f;
+$pink: #D97D6C;
+$grey: #c4c4c4;
+
+
+:root {
+    --primary: #ffffff
+}
+
+.btn {
+    font-family: "AvenirBook";
+    margin: 1em 0 1em 0;
+    padding: 8px 35px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 900;
+    &:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+    padding: 8px 20px;
+    font-size: 18px
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--mobile{
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 14px 20px;
+    border: 1px solid #ffffff;
+    transition:  all 0.3s ease-out;
+}
+
+.btn--wide {
+    padding: 12px 64px;
+    font-size: 20px;
+}
+
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover{
+    transition: all 0.3s ease-out;
+    background: #ffffff;
+    color: #242424; 
+}
+
+
+.pinkBtn {
+    background-color: #ffffff;
+    color: $pink;
+    border: 2px solid $pink;
+    margin-bottom: 2em;
+    &:hover{
+        color: #ffffff;
+        border: 2px solid $pink;
+        background-color: $pink;
+    }
+}
+
+.purpleBtn {
+    background-color: $purple;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover{
+        color: $purple;
+        border: 1px solid $purple;
+    }
+}
+
+.whiteBtn {
+    background-color: #ffffff;
+    color: #242424;
+    border: 1px solid transparent;
+    &:hover{
+        color: $peach;
+    }
+}
+
+.peachBtn {
+    background-color: $peach;
+    color: #242424;
+    // margin: 0 !important;
+    border: 1px solid transparent;
+    &:hover{
+        color: $peach;
+        border: 1px solid $peach;
+    }
+}
+
+.limeBtn {
+    background-color: $lime;
+    color: #3d3d3d;
+    border: 1px solid transparent;
+    &:hover{
+        color: $lime;
+        border: 1px solid $lime;
+    }
+}
+
+.yellowBtn {
+    background-color: $yellow;
+    color: #242424;
+    border: 1px solid transparent;
+    &:hover{
+        color: $yellow;
+        border: 1px solid $yellow;
+    }
+}
+
+.greyBtn {
+    background-color: #C4C4C4;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #c4c4c4;
+    }
+}
+
+.programsBtn {
+    background-color: #ffffff;
+    color: #3D3D3D;
+    border: 1px solid transparent;
+    &:hover{
+        color: $yellow;
+        border: 1px solid $yellow;
+    }
+}
+
+.staffBtn {
+    background-color: #ffffff;
+    color: #3D3D3D;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid $peach;
+        color: $peach;
+    }
+}
+
+.calendarBtn {
+    margin: 5em auto 7em auto !important;
+    background-color: #C4C4C4;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #c4c4c4 ;
+    }
+}
+
+
+@media screen and (min-width: 784px) {
+    .peachBtn {
+        background-color: #ffffff;
+    }
+}

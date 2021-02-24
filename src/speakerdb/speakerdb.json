@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Pandit Dasa",
+      "position": "Former Monk and CEO",
+      "image": "/images/panditDasa.jpg",
+      "link": "https://www.linkedin.com/in/panditdasa/",
+      "linkedIn": true
+    },
+    {
+      "id": 2,
+      "name": "Sara Fortier",
+      "position": "CEO Outwitly Inc.",
+      "image": "/images/saraFortier.jpg",
+      "link": "https://www.linkedin.com/in/sarafortier/",
+      "linkedIn": true
+    }
+  ]
+  

@@ -1,0 +1,64 @@
+$peach: #D97D6C;
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 22em;
+    
+}
+
+.slide {
+    min-width: 100%;
+    height: 80%;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: $peach;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.02);
+}
+
+%btn-styles{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    // width: 10%;
+    height: 80%;
+    background: none;
+    color: #ffffff;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    &:hover{
+        // background: rgba(255, 255, 255, 0.418);
+        color: $peach;
+        cursor: pointer;
+    }
+}
+
+#slideLeft{
+    left: 0;
+    @extend %btn-styles;
+}
+
+#slideRight{
+    right: 0;
+    @extend %btn-styles;
+}
+
+@media screen and (min-width: 768px) {
+    %btn-styles{
+        width: 10%;
+        &:hover{
+            background: rgba(255, 255, 255, 0.418);            
+        }
+    }
+}

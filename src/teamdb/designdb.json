@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Maxine Arbez Cheung",
+      "position": "Director of Design",
+      "image": "/teamimages/MaxineArbez.png",
+      "link": "https://www.linkedin.com/in/maxine-arbez-cheung/",
+      "linkedIn": true
+    },
+    {
+      "id": 2,
+      "name": "Jaclyn Jamieson",
+     "image": "/teamimages/JaclynJamieson.png",
+     "link": "https://www.linkedin.com/in/jaclyn-jamieson-7b75b1154/",
+     "linkedIn": true
+    },
+    {
+      "id": 3,
+      "name": "Eileen Kennedy-McDonald",
+     "image": "/teamimages/EileenKennedy.png",
+     "link": "https://www.eileenkm.com"
+    },
+    {
+      "id": 4,
+      "name": "Shiva Moin",
+      "image": "/teamimages/ShivaMoin.png",
+      "link": "https://www.linkedin.com/in/shivamoin/",
+      "linkedIn": true
+    },
+    {
+      "id": 5,
+      "name": "Senafa Noudehou",
+      "image": "/teamimages/SenafaNoudehou.png",
+      "link": "https://senafa.myportfolio.com/"
+    },
+    {
+      "id": 6,
+      "name": "Cora Vasut",
+      "image": "/teamimages/CoraVasut.png",
+      "link": "https://www.linkedin.com/in/coravasut/",
+      "linkedIn": true
+    },
+    {
+      "id": 7,
+      "name": "Siobhan Skene",
+      "image": "/teamimages/SiobhanSkene.png"
+    },
+    {
+      "id": 8,
+      "name": "Farah Elabd",
+      "image": "/teamimages/FarahElabd.png"
+    },
+    {
+      "id": 9,
+      "name": "Nicole Ermuth",
+      "image": "/teamimages/NicoleErmuth.png"
+    }
+  ]
+  

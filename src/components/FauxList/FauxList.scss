@@ -1,0 +1,22 @@
+$peach: #D97D6C;
+
+.fauxList{
+    display: flex;
+}
+
+.fauxList strong{
+    min-width: 155px;
+    margin-right: 2em;
+}
+
+.fauxList:nth-child(2){
+    margin-top: 2em;
+}
+
+.contactPrompt{
+    color: $peach;
+    font-weight: 900;
+    margin: 2em 0 0.1em 0;
+    font-family: "AvenirBook";
+    font-size: 18px;
+}

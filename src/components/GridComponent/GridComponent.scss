@@ -1,0 +1,41 @@
+.gridComponent{
+    padding-bottom: 2em;
+    margin-top: -2.1em;
+}
+
+.gridRow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.gridColumn{
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+    max-width: 340px;
+}
+
+.gridImg{
+    max-width: 100px;
+    display: flex;
+    margin: auto 0;
+}
+
+.columnText{
+    margin: auto 0;
+    max-width: 340px;
+}
+
+.columnTitle{
+    font-weight: 900;
+}
+
+
+@media screen and (min-width: 768px) {
+    .gridRow{
+        flex-direction: row;
+    }
+}

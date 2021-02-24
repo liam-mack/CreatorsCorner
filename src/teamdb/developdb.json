@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "Liam Mackinnon",
+      "position": "Director of Development",
+      "image": "/teamimages/LiamMackinnon.png",
+      "link": "https://www.linkedin.com/in/liam-mackinnon/",
+      "linkedIn": true
+    },
+    {
+      "id": 2,
+      "name": "Justin Zhang",
+      "image": "/teamimages/JustinZhang.png"
+    }
+  ]
+  
