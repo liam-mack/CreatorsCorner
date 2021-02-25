@@ -35,10 +35,8 @@
     },
     {
       "id": 6,
-      "name": "Cora Vasut",
-      "image": "/teamimages/CoraVasut.png",
-      "link": "https://www.linkedin.com/in/coravasut/",
-      "linkedIn": true
+      "name": "Venus Chau",
+      "image": "/teamimages/emptyProfile.png"
     },
     {
       "id": 7,
@@ -58,12 +56,14 @@
     {
       "id": 10,
       "name": "Mary Nehmé",
-      "image": "/teamimages/"
+      "image": "/teamimages/maryNehme.jpg"
     },
     {
       "id": 11,
-      "name": "Venus Chau",
-      "image": "/teamimages/"
+      "name": "Cora Vasut",
+      "image": "/teamimages/CoraVasut.png",
+      "link": "https://www.linkedin.com/in/coravasut/",
+      "linkedIn": true
     }
   ]
   

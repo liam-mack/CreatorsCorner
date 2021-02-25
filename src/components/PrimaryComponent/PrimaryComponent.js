@@ -227,7 +227,7 @@ function PrimaryComponent({
                       {signature}
                     </p>
                     <a href="https://www.linkedin.com/in/yasminmehdi/" target="_blank">
-                    <img className="signatureImg" src="/images/contactLinkedIn.png"></img>
+                    <img className="signatureImg" src="/images/signatureImg.png"></img>
                     </a>
                     </div>
                   )}
