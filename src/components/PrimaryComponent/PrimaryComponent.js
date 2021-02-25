@@ -222,9 +222,14 @@ function PrimaryComponent({
                     {body5}
                   </p>
                   {signature && (
+                    <div className="signatureRow">
                     <p className="primary__hero-body dark signature">
                       {signature}
                     </p>
+                    <a href="https://www.linkedin.com/in/yasminmehdi/" target="_blank">
+                    <img className="signatureImg" src="/images/contactLinkedIn.png"></img>
+                    </a>
+                    </div>
                   )}
                 </div>
               </div>

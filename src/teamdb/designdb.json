@@ -54,6 +54,16 @@
       "id": 9,
       "name": "Nicole Ermuth",
       "image": "/teamimages/NicoleErmuth.png"
+    },
+    {
+      "id": 10,
+      "name": "Mary Nehmé",
+      "image": "/teamimages/"
+    },
+    {
+      "id": 11,
+      "name": "Venus Chau",
+      "image": "/teamimages/"
     }
   ]
   

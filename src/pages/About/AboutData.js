@@ -80,7 +80,7 @@ export const aboutObjEight= {
     body: "Over the summer of COVID-19 prior to my graduating year, I found myself getting more involved within my community. Non-Profit Organizations (NPOs) are made up of many people with varying backgrounds and face a range of challenges. Here, I discovered that the most overlooked and intimidating tasks were centered around design and marketing. I quicjly realized I had the opportunity to bring two things I am passionate about together; design and social change, to create something bigger than myself. What started as a midnight afterthought quickly evolved into Creator's Corner.",
     body2: "What I had envisioned for CC was the ability to help struggling NPO's while simultaneously providing students with opportunities to expand their skills. Where organizations often lack the reosurces to invest in design, branding, websites, etc., we're able to provide this at a desirable cost... free. Students are always looking to enhance their resumes and gain real experience before they go off into the world. What better way to provide them the opporunity to do this while helping organizations who need it. Working with clients, hitting deadlines ,and working in teams is a great way for students to develop their soft skills while honing in on their craft.",
     body3: "I believe this club has the power to change our world, and that's exactly what we're doing. One organization at a time!",
-    signature: "-Yasmin Mehdi October 2020"
+    signature: "Yasmin Mehdi October 2020"
 }
 
 
