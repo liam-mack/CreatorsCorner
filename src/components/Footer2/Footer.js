@@ -59,8 +59,8 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <Link to ="/Events"><h2>Events</h2></Link>
-            <HashLink to="/Events#eventUpcoming">Upcoming Events</HashLink>
-            <HashLink to="/Events#eventSpeakers">Past Speakers</HashLink>
+            <HashLink smooth to="/Events#eventUpcoming">Upcoming Events</HashLink>
+            <HashLink smooth to="/Events#eventSpeakers">Past Speakers</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">
