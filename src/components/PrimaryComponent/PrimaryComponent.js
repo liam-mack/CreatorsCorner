@@ -74,6 +74,8 @@ function PrimaryComponent({
                           ? "primary__hero-img-single"
                           : "primary__hero-img-multi"
                       }
+                      data-aos="flip-down"
+                      data-aos-duration="1000"
                       key={idx}
                     >
                       {imgLinks ? (
@@ -143,7 +145,7 @@ function PrimaryComponent({
                   )}
                   {headers && (
                     <h2
-                      className={lightText ? "subHeading" : "subHeading dark"}
+                      className={lightText ? "subHeading" : "subHeading dark"} data-aos="fade-down"
                     >
                       {headers[0]}
                     </h2>
@@ -153,13 +155,13 @@ function PrimaryComponent({
                       lightTextDescription
                         ? "primary__hero-body"
                         : "primary__hero-body dark"
-                    }
+                    } data-aos="fade-down"
                   >
                     {body}
                   </p>
                   {headers && (
                     <h2
-                      className={lightText ? "subHeading" : "subHeading dark"}
+                      className={lightText ? "subHeading" : "subHeading dark"} data-aos="fade-down"
                     >
                       {headers[1]}
                     </h2>
@@ -169,13 +171,13 @@ function PrimaryComponent({
                       lightText
                         ? "primary__hero-body"
                         : "primary__hero-body dark"
-                    }
+                    } data-aos="fade-down"
                   >
                     {body2}
                   </p>
                   {headers && (
                     <h2
-                      className={lightText ? "subHeading" : "subHeading dark"}
+                      className={lightText ? "subHeading" : "subHeading dark"} data-aos="fade-down"
                     >
                       {headers[2]}
                     </h2>
@@ -185,13 +187,13 @@ function PrimaryComponent({
                       lightText
                         ? "primary__hero-body"
                         : "primary__hero-body dark"
-                    }
+                    } data-aos="fade-down"
                   >
                     {body3}
                   </p>
                   {headers && (
                     <h2
-                      className={lightText ? "subHeading" : "subHeading dark"}
+                      className={lightText ? "subHeading" : "subHeading dark"} data-aos="fade-down"
                     >
                       {headers[3]}
                     </h2>
@@ -201,13 +203,13 @@ function PrimaryComponent({
                       lightText
                         ? "primary__hero-body"
                         : "primary__hero-body dark"
-                    }
+                    } data-aos="fade-down"
                   >
                     {body4}
                   </p>
                   {headers && (
                     <h2
-                      className={lightText ? "subHeading" : "subHeading dark"}
+                      className={lightText ? "subHeading" : "subHeading dark"} data-aos="fade-down"
                     >
                       {headers[4]}
                     </h2>
@@ -217,7 +219,7 @@ function PrimaryComponent({
                       lightText
                         ? "primary__hero-body"
                         : "primary__hero-body dark"
-                    }
+                    } data-aos="fade-down"
                   >
                     {body5}
                   </p>

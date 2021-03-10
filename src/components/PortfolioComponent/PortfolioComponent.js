@@ -21,7 +21,7 @@ function PortfolioComponent({
         {rows.map(function (rowNumber, idx) {
           return (
             <div className="gridRow portfolioRow">
-              <div className="gridColumn portfolioColumn">
+              <div className="gridColumn portfolioColumn" data-aos="fade-right" data-aos-duration="1500">
                 <div className="portfolio-item-wrapper">
                   <img
                     src={img[rowNumber]}
@@ -38,7 +38,7 @@ function PortfolioComponent({
                   </div>
                 </div>
               </div>
-              <div className="gridColumn portfolioColumn">
+              <div className="gridColumn portfolioColumn" data-aos="fade-left" data-aos-duration="1500">
                 <div className="portfolio-item-wrapper">
                   <img
                     src={img[rowNumber + 1]}
@@ -59,7 +59,7 @@ function PortfolioComponent({
           );
         })}
         {/* {buttonLink && ( */}
-        <div className="buttonWrapper">
+        <div className="buttonWrapper" data-aos="flip-left" data-aos-duration="1500">
           <Link to={buttonLink}>
             <Button buttonColour={buttonColour}>{buttonLabel}</Button>
           </Link>

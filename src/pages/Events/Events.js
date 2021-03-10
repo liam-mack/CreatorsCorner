@@ -41,9 +41,9 @@ function About() {
       <div className="container eventSection" id="eventUpcoming">
         <h1 className="eventSection-header">UPCOMING EVENTS</h1>
         <div className="upcomingWrapper">
-          <UpcomingEvent day="2" title="Team Meeting"/>
-          <UpcomingEvent day="3" title="Jennifer/Creators Corner"/>
-          <UpcomingEvent day="9" title="Team Meeting"/>
+          <UpcomingEvent day="16" title="Team Meeting"/>
+          <UpcomingEvent day="23" title="Team Meeting"/>
+          <UpcomingEvent day="23" title="Jay Andrews/Creator's Corner"/>
         </div>
         <Button
           buttonColour="calendarBtn"

@@ -32,7 +32,7 @@ function GridComponent({
         {rows.map(function (firstRow, idx) {
           return (
             <div className="gridRow">
-              <div className="gridColumn">
+              <div className="gridColumn" data-aos="fade-right" data-aos-duration="2000">
                 {img && (
                   <img className="gridImg" src={img[firstRow]} alt={alt[firstRow]} />
                 )}
@@ -50,7 +50,7 @@ function GridComponent({
                   )}
                 </div>
               </div>
-              <div className="gridColumn">
+              <div className="gridColumn" data-aos="fade-left" data-aos-duration="1500">
                 {img && (
                   <img
                     className="gridImg"

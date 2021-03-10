@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs/NavTabs";
 import Home from "./pages/Home/Home";
@@ -7,8 +7,18 @@ import Events from "./pages/Events/Events";
 import Apply from "./pages/Apply/Apply";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true
+    });
+    // AOS.refresh();
+  }, []);
+
   return (
     <Router>
       <div>

@@ -22,27 +22,27 @@ function FauxList({
           {headline && <h1 className="heading dark">{headline}</h1>}
           <div className="fauxList">
             {headers && (
-              <strong className="subHeading dark">{headers[0]}</strong>
+              <strong className="subHeading dark" data-aos="fade-right">{headers[0]}</strong>
             )}
-            <p className="primary__hero-body dark">{body}</p>
+            <p className="primary__hero-body dark" data-aos="fade-left">{body}</p>
           </div>
           <div className="fauxList">
             {headers && (
-              <strong className="subHeading dark">{headers[1]}</strong>
+              <strong className="subHeading dark" data-aos="fade-right">{headers[1]}</strong>
             )}
-            <p className="primary__hero-body dark">{body2}</p>
+            <p className="primary__hero-body dark" data-aos="fade-left">{body2}</p>
           </div>
           <div className="fauxList">
             {headers && (
-              <strong className="subHeading dark">{headers[2]}</strong>
+              <strong className="subHeading dark" data-aos="fade-right">{headers[2]}</strong>
             )}
-            <p className="primary__hero-body dark">{body3}</p>
+            <p className="primary__hero-body dark" data-aos="fade-left">{body3}</p>
           </div>
           <div className="fauxList">
             {headers && (
-              <strong className="subHeading dark">{headers[3]}</strong>
+              <strong className="subHeading dark" data-aos="fade-right">{headers[3]}</strong>
             )}
-            <p className="primary__hero-body dark">{body4}</p>
+            <p className="primary__hero-body dark" data-aos="fade-left">{body4}</p>
           </div>
           {buttonLink && (
             <div className="buttonWrapper">
