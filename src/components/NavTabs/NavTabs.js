@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 // import logo from "../../icons/ccLogoW.svg";
 import "./NavTabs.scss";
@@ -41,29 +41,29 @@ function NavTabs() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/About" className="nav-links" onClick={closeHamburger}>
+              <NavLink to="/About" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/Projects" className="nav-links" onClick={closeHamburger}>
-                Projects & Services
-              </Link>
+              <NavLink to="/Projects" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
+                Our Portfolio
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/Apply" className="nav-links" onClick={closeHamburger}>
+              <NavLink to="/Apply" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
                 Apply
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/Events" className="nav-links" onClick={closeHamburger}>
+              <NavLink to="/Events" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
                 Events
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/Contact" className="nav-links" onClick={closeHamburger}>
+              <NavLink to="/Contact" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
                 Contact Us
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

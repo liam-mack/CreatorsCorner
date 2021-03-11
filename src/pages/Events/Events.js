@@ -34,7 +34,7 @@ function About() {
   return (
     <div className="eventsPage">
       <ScrollToTopOnMount />
-      <BannerImage name='hero' banner="EventsBanner" alt="News and Events Page Banner" title="News & Events"/>
+      <BannerImage name='hero' banner="EventsBanner" alt="News and Events Page Banner" title="NEWS & EVENTS"/>
       <div className="container">
         <h1 className="newsTitle">Page 3</h1>
       </div>

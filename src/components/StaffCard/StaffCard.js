@@ -9,7 +9,7 @@ function StaffCard({
   position
 }) {
   return (
-    <div className="staff-card" data-aos="fade-left" data-aos-duration="2000">
+    <div className="staff-card" data-aos="fade-left" data-aos-duration="1500">
       <div className="staff-content">
         {link ? (
           <span className="teamLink" href={link} target="_blank">

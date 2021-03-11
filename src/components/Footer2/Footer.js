@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -24,7 +24,7 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to ="/"><h2>Home</h2></Link>
+            <NavLink to ="/" exact={true} activeClassName="selectedNav"><h2>Home</h2></NavLink>
             <HashLink smooth to="/Home#homeAbout">What We Do</HashLink>
             <HashLink smooth to="/Home#homeServices">Our Services</HashLink>
             <HashLink smooth to="/Home#homeApply">Apply</HashLink>
@@ -33,7 +33,7 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to ="/About"><h2>About</h2></Link>
+            <NavLink to ="/About" activeClassName="selectedNav"><h2>About</h2></NavLink>
             <HashLink smooth to="/About#aboutWho">Who Are We?</HashLink>
             <HashLink smooth to="/About#aboutMission">Our Mission</HashLink>
             <HashLink smooth to="/About#aboutValues">Our Values</HashLink>
@@ -43,14 +43,14 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/Projects"><h2>Projects</h2></Link>
+            <NavLink to="/Projects" activeClassName="selectedNav"><h2>Portfolio</h2></NavLink>
             <HashLink smooth to="/Projects#projectHighlights">Highlights</HashLink>
             <HashLink smooth to="/Projects#projectPortfolio">Portfolio</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/Apply"><h2>Apply</h2></Link>
+            <NavLink to="/Apply" activeClassName="selectedNav"><h2>Apply</h2></NavLink>
             <HashLink smooth to="/Apply#ApplyBanner">Apply</HashLink>
             <HashLink smooth to="/Apply#applyClient">FAQ</HashLink>
             <HashLink smooth to="/Apply#applyList">What It Takes</HashLink>
@@ -58,14 +58,14 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to ="/Events"><h2>Events</h2></Link>
+            <NavLink to ="/Events" activeClassName="selectedNav"><h2>Events</h2></NavLink>
             <HashLink smooth to="/Events#eventUpcoming">Upcoming Events</HashLink>
             <HashLink smooth to="/Events#eventSpeakers">Past Speakers</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/Contact"><h2>Contact Us</h2></Link>
+            <NavLink to="/Contact" activeClassName="selectedNav"><h2>Contact Us</h2></NavLink>
             <Link to="/Contact">Send us a Message</Link>
             <HashLink smooth to="/Contact#contactFollow">Follow our Mission</HashLink>
           </div>
