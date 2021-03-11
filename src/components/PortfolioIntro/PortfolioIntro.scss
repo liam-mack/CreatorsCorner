@@ -1,0 +1,39 @@
+.portfolioIntro{
+    margin-top: 30em;
+}
+
+.introRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.introServices{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    font-size: 23px;
+    line-height: 32px;
+    p {
+        margin: 0 !important
+    }
+}
+
+.introParagraph{
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.portfolioTestimonial{
+    margin-top: 2em;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    font-style: italic;
+}

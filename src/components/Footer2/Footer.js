@@ -43,9 +43,9 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <NavLink to="/Projects" activeClassName="selectedNav"><h2>Portfolio</h2></NavLink>
-            <HashLink smooth to="/Projects#projectHighlights">Highlights</HashLink>
-            <HashLink smooth to="/Projects#projectPortfolio">Portfolio</HashLink>
+            <NavLink to="/Portfolio" activeClassName="selectedNav"><h2>Portfolio</h2></NavLink>
+            <HashLink smooth to="/Portfolio#projectHighlights">Highlights</HashLink>
+            <HashLink smooth to="/Portfolio#projectPortfolio">Portfolio</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">

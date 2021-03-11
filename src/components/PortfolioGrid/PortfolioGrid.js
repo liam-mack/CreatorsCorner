@@ -1,11 +1,12 @@
 import React from "react";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
-import "./PortfolioComponent.scss";
+import "./PortfolioGrid.scss";
 
-function PortfolioComponent({
+function PortfolioGrid({
   rows,
   img,
+  imgLink,
   alt,
   portfolioTitle,
   portfolioDate,
@@ -25,7 +26,7 @@ function PortfolioComponent({
                 data-aos="fade-right"
                 data-aos-duration="1500"
               >
-                <Link to="/">
+                <Link to={imgLink[rowNumber]}>
                   <div className="portfolio-item-wrapper">
                     <img
                       src={img[rowNumber]}
@@ -43,7 +44,7 @@ function PortfolioComponent({
                   </div>
                 </Link>
               </div>
-              <Link to="/">
+              <Link to={imgLink[rowNumber + 1]}>
               <div
                 className="gridColumn portfolioColumn"
                 data-aos="fade-left"
@@ -83,10 +84,9 @@ function PortfolioComponent({
             services to help your organization grow!
           </p>
         </div>
-        {/* )} */}
       </div>
     </div>
   );
 }
 
-export default PortfolioComponent;
+export default PortfolioGrid;

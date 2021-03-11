@@ -1,9 +1,6 @@
-$peach: #fab96c;
-$yellow: rgba(255, 209, 5, 0.65);
-$purple: rgba(102, 45, 145, 0.65);
-$lime: #e0e98f;
+$navy: #2A3240;
 $pink: #D97D6C;
-$grey: #c4c4c4;
+
 
 
 :root {
@@ -80,83 +77,14 @@ $grey: #c4c4c4;
     }
 }
 
-.purpleBtn {
-    background-color: $purple;
+.navyBtn {
+    background-color: $navy;
     color: #ffffff;
-    border: 1px solid transparent;
-    &:hover{
-        color: $purple;
-        border: 1px solid $purple;
-    }
-}
-
-.whiteBtn {
-    background-color: #ffffff;
-    color: #242424;
-    border: 1px solid transparent;
-    &:hover{
-        color: $peach;
-    }
-}
-
-.peachBtn {
-    background-color: $peach;
-    color: #242424;
-    // margin: 0 !important;
-    border: 1px solid transparent;
-    &:hover{
-        color: $peach;
-        border: 1px solid $peach;
-    }
-}
-
-.limeBtn {
-    background-color: $lime;
-    color: #3d3d3d;
-    border: 1px solid transparent;
-    &:hover{
-        color: $lime;
-        border: 1px solid $lime;
-    }
-}
-
-.yellowBtn {
-    background-color: $yellow;
-    color: #242424;
-    border: 1px solid transparent;
-    &:hover{
-        color: $yellow;
-        border: 1px solid $yellow;
-    }
-}
-
-.greyBtn {
-    background-color: #C4C4C4;
-    color: #ffffff;
-    border: 1px solid transparent;
-    &:hover{
-        border: 1px solid #c4c4c4;
-    }
-}
-
-.programsBtn {
-    background-color: #ffffff;
-    color: #3D3D3D;
-    border: 1px solid transparent;
-    &:hover{
-        color: $yellow;
-        border: 1px solid $yellow;
-    }
-}
-
-.staffBtn {
-    background-color: #ffffff;
-    color: #3D3D3D;
-    border: 1px solid transparent;
-    &:hover{
-        border: 1px solid $peach;
-        color: $peach;
-    }
+    border-radius: 54px;
+    padding: 1em 2em;
+    font-size: 23px;
+    font-family: "SourceCodePro"
+    // width: 250px
 }
 
 .calendarBtn {
@@ -166,12 +94,5 @@ $grey: #c4c4c4;
     border: 1px solid transparent;
     &:hover{
         border: 1px solid #c4c4c4 ;
-    }
-}
-
-
-@media screen and (min-width: 784px) {
-    .peachBtn {
-        background-color: #ffffff;
     }
 }

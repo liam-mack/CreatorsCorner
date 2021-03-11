@@ -19,6 +19,16 @@
     width: 100%
 }
 
+.PortfolioBanner {
+    background: url("../../banners/secondaryBanner.png");
+    background-size: cover;
+    min-height: 30em;
+    background-position: 50% 80%;
+    position: absolute;
+    top: 0;
+    width: 100%;    
+}
+
 .ProjectsBanner {
     background: url("../../banners/secondaryBanner.png");
     background-size: cover;

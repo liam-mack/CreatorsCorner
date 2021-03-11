@@ -46,7 +46,7 @@ function NavTabs() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/Projects" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
+              <NavLink to="/Portfolio" activeClassName="selectedNav" className="nav-links" onClick={closeHamburger}>
                 Our Portfolio
               </NavLink>
             </li>
