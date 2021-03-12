@@ -1,0 +1,49 @@
+.portfolioHeader{
+    font-weight: 700;
+    font-family: "SourceCodePro";
+    margin: 2em 0;
+}
+
+.multiImgWrapper {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  .thirdImg {
+    margin: 0 2em;
+  }
+}
+
+.halfImg {
+  max-width: 48%;
+}
+
+.thirdImg {
+  max-width: 30%;
+}
+
+.quarterImg {
+  max-width: 20%;
+  // height: 50%;
+}
+
+.rectangleImg {
+  height: 50%;
+  margin-top: 3em;
+}
+
+.ochLogoConcept {
+  max-height: 290px;
+}
+
+.finalLogo {
+  max-width: 360px;
+}
+
+.citadelLogo {
+  max-width: 600px;
+  margin: 1em 0 3em 0;
+}
