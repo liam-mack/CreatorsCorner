@@ -7,7 +7,7 @@ import PortfolioDivider from "../../../components/PortfolioDivider/PortfolioDivi
 import { Button } from "../../../components/Button/Button";
 import { Link } from "react-router-dom";
 import {citadelObj} from "../projectsData"; 
-import "./Citadel.scss";
+import "../Projects.scss";
 
 function Citadel() {
   return (

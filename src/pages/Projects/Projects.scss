@@ -19,14 +19,17 @@
 
 .halfImg {
   max-width: 48%;
+  // max-height: 250px;
 }
 
 .thirdImg {
   max-width: 30%;
+  // max-height: 250px;
 }
 
 .quarterImg {
   max-width: 20%;
+  // max-height: 250px;
   // height: 50%;
 }
 
@@ -44,11 +47,20 @@
 }
 
 .citadelLogo {
-  max-width: 600px;
+  max-width: 250px;
   margin: 1em 0 3em 0;
 }
 
 .blockGraphic {
   display: block;
   margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .citadelLogo {
+    max-width: 400px !important;
+  }
+  .halfImg, .thirdImg, .quarterImg, {
+    
+  } 
 }
