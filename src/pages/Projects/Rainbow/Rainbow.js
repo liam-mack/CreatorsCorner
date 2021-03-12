@@ -6,7 +6,7 @@ import PortfolioIntro from "../../../components/PortfolioIntro/PortfolioIntro";
 import PortfolioDivider from "../../../components/PortfolioDivider/PortfolioDivider";
 import { Button } from "../../../components/Button/Button";
 import { Link } from "react-router-dom";
-import {rainbowObj} from "../projectsData"; 
+import { rainbowObj } from "../projectsData";
 
 function Rainbow() {
   return (
@@ -19,9 +19,18 @@ function Rainbow() {
         title="CITADEL CANINE SOCIETY"
         desc="October 2020"
       />
-      <PortfolioIntro {...rainbowObj}/>
+      <PortfolioIntro {...rainbowObj} />
       <PortfolioDivider text="PROJECT 1: WEB DESIGN" bgColour="#EF5E63" />
-      <PortfolioDivider text="PROJECT 2: SOCIAL MEDIA DESIGN" bgColour="#EF5E63" />
+      <div className="container">
+        <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSite.png" data-aos="fade-left" data-aos-duration="1000"/>
+      </div>
+      <PortfolioDivider
+        text="PROJECT 2: SOCIAL MEDIA DESIGN"
+        bgColour="#EF5E63"
+      />
+      <div className="container">
+        <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSM.png" data-aos="fade-up" data-aos-duration="1000"/>
+      </div>
       <div
         className="buttonWrapper"
         data-aos="flip-left"
