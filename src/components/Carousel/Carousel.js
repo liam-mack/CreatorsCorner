@@ -30,10 +30,10 @@ function Carousel() {
         );
       })}
       <button id="slideLeft" onClick={slideToLeft}>
-      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      <i className="fa fa-arrow-left" aria-hidden="true"></i>
       </button>
       <button id="slideRight" onClick={slideToRight}>
-      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <i className="fa fa-arrow-right" aria-hidden="true"></i>
       </button>
     </div>
   );

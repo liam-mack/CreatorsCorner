@@ -7,9 +7,9 @@ import { HashLink } from 'react-router-hash-link';
 function Footer() {
   return (
     <div className="footerContainer">
-      <div class="footerLinks">
+      <div className="footerLinks">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items socials">
+          <div className="footer-link-items socials">
             <img className="footer-logo-img"src="/images/ccLogoFooter.png"></img>
             <div className="footer-row">
             <img  className="footer-mail" src="/images/footerMail.png"></img>
@@ -23,7 +23,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to ="/" exact={true} activeClassName="selectedNav"><h2>Home</h2></NavLink>
             <HashLink smooth to="/Home#homeAbout">What We Do</HashLink>
             <HashLink smooth to="/Home#homeServices">Our Services</HashLink>
@@ -32,7 +32,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to ="/About" activeClassName="selectedNav"><h2>About</h2></NavLink>
             <HashLink smooth to="/About#aboutWho">Who Are We?</HashLink>
             <HashLink smooth to="/About#aboutMission">Our Mission</HashLink>
@@ -42,14 +42,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to="/Portfolio" activeClassName="selectedNav"><h2>Portfolio</h2></NavLink>
             <HashLink smooth to="/Portfolio#projectHighlights">Highlights</HashLink>
             <HashLink smooth to="/Portfolio#projectPortfolio">Portfolio</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to="/Apply" activeClassName="selectedNav"><h2>Apply</h2></NavLink>
             <HashLink smooth to="/Apply#ApplyBanner">Apply</HashLink>
             <HashLink smooth to="/Apply#applyClient">FAQ</HashLink>
@@ -57,22 +57,22 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to ="/Events" activeClassName="selectedNav"><h2>Events</h2></NavLink>
             <HashLink smooth to="/Events#eventUpcoming">Upcoming Events</HashLink>
             <HashLink smooth to="/Events#eventSpeakers">Past Speakers</HashLink>
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <NavLink to="/Contact" activeClassName="selectedNav"><h2>Contact Us</h2></NavLink>
             <Link to="/Contact">Send us a Message</Link>
             <HashLink smooth to="/Contact#contactFollow">Follow our Mission</HashLink>
           </div>
         </div>
       </div>
-      <section class="copyright">
-        <p class="copyright-wrapper">Creator's Corner 2021</p>
+      <section className="copyright">
+        <p className="copyright-wrapper">Creator's Corner 2021</p>
       </section>
     </div>
   );

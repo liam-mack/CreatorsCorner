@@ -13,7 +13,6 @@ function Contact() {
             method="POST"
           >
             <h2>Say Hello!</h2>
-            {/* <label>First Name (required)</label> */}
             <input
               className="contactData"
               type="text"
@@ -22,9 +21,6 @@ function Contact() {
               placeholder="Name"
               required
             />
-            {/* <label>Last Name (required)</label> */}
-            {/* <input className="contactData"type="name" id="lastname" name="LastName" required /> */}
-            {/* <label>Your Email (required)</label> */}
             <input
               className="contactData"
               type="email"
@@ -33,15 +29,16 @@ function Contact() {
               placeholder="Email Address"
               required
             />
-            {/* <label>Your Message</label> */}
             <textarea
               className="contactData"
               id="elaborate"
+              name="elaborate"
               placeholder="Message"
               cols="20"
               rows="10"
+              required
             ></textarea>
-            <h6 className="contactEmail"><i class="fa fa-envelope-o" aria-hidden="true"></i> creatorscornercu@gmail.com</h6>
+            <h6 className="contactEmail"><i className="fa fa-envelope-o" aria-hidden="true"></i> creatorscornercu@gmail.com</h6>
             <input className="pinkBtn btn" type="submit" value="Submit" />
           </form>
         </div>
