@@ -8,7 +8,7 @@
   margin: 1em 0;
   display: flex;
   justify-content: space-between;
-  max-height: 250px;
+  max-height: 200px;
 }
 
 .center {
@@ -20,17 +20,17 @@
 
 .halfImg {
   max-width: 48%;
-  // max-height: 250px;
+  max-height: 250px;
 }
 
 .thirdImg {
   max-width: 30%;
-  // max-height: 250px;
+  max-height: 250px;
 }
 
 .quarterImg {
   max-width: 20%;
-  // max-height: 250px;
+  max-height: 250px;
   // height: 50%;
 }
 
@@ -62,6 +62,7 @@
     max-width: 400px !important;
   }
   .halfImg, .thirdImg, .quarterImg, {
+    max-height: 700px;
 
   }
   
