@@ -29,11 +29,11 @@ function OCH() {
             src="portfolioImages/och/conceptLogo1.png"
           />
           <img
-            className="quarterImg rectangleImg"
+            className="rectangleImg quarterImg"
             src="portfolioImages/och/conceptLogo3.png"
           />
           <img
-            className="quarterImg rectangleImg"
+            className="rectangleImg quarterImg"
             src="portfolioImages/och/conceptLogo5.png"
           />
           <img
@@ -50,7 +50,7 @@ function OCH() {
             className="quarterImg ochLogoConcept"
             src="portfolioImages/och/conceptLogo2.png"
           />
-          <img className="halfImg rectangleImg" src="portfolioImages/och/conceptLogo7.png" />
+          <img className="rectangleImg halfImg " src="portfolioImages/och/conceptLogo7.png" />
         </div>
         <p className="portfolioHeader">Final Logo:</p>
         <img className="finalLogo" src="portfolioImages/och/finalLogo.png" />
