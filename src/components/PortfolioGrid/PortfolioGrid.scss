@@ -5,9 +5,11 @@ $navy: #2A3240;
 //     margin-top: 28em;
 // }
 
-// .portfolioRow{
-//     margin-bottom: 2em;
-// }
+
+// Fix: Remove when OCRCC ready
+.portfolioRow{
+    justify-content: space-between !important;
+}
 
 .portfolioColumn{
     max-width: 500px !important;
