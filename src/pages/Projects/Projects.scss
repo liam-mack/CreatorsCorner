@@ -5,10 +5,12 @@
 }
 
 .multiImgWrapper {
+  position: relative;
   margin: 1em 0;
   display: flex;
   justify-content: space-between;
-  max-height: 200px;
+  height: 100%;
+  // max-height: 200px;
 }
 
 .center {
@@ -35,8 +37,9 @@
 }
 
 .rectangleImg {
+  position: relative;
   height: 50% !important;
-  max-height: 50%;
+  // max-height: 50% !important;
   // margin-top: 3em !important;
 }
 
@@ -64,7 +67,6 @@
   }
   .halfImg, .thirdImg, .quarterImg {
     max-height: 700px;
-
   }
   
   .multiImgWrapper{
