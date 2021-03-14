@@ -1,7 +1,7 @@
-.portfolioHeader{
-    font-weight: 700;
-    font-family: "SourceCodePro";
-    margin: 2em 0;
+.portfolioHeader {
+  font-weight: 700;
+  font-family: "SourceCodePro";
+  margin: 2em 0;
 }
 
 .multiImgWrapper {
@@ -9,6 +9,13 @@
   display: flex;
   justify-content: space-around;
   height: 100%;
+}
+
+.multiImgWrapperSquare {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  height: 105px;
 }
 
 .multiLogoWrapper {
@@ -26,7 +33,7 @@
 }
 
 .halfImg {
-  max-width: 48%;
+  max-width: 49%;
   max-height: 250px;
 }
 
@@ -64,41 +71,61 @@
   margin: auto;
 }
 
+@media screen and (min-width: 475px) {
+  .multiImgWrapperSquare {
+    height: 175px
+  }
+}
+
 @media screen and (min-width: 768px) {
   .citadelLogo {
     max-width: 400px !important;
   }
-  .halfImg, .thirdImg, .quarterImg {
-    max-height: 700px;
-  }
-  
-  .multiImgWrapper{
+  .halfImg,
+  .thirdImg,
+  .quarterImg {
     max-height: 700px;
   }
 
-  .multiLogoWrapper{
+  .multiImgWrapper {
+    max-height: 700px;
+  }
+
+  .multiLogoWrapper {
     height: 170px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-  .multiLogoWrapper{
-    height: 210px;
-  }
-
-  .finalLogo{
-    margin-left: 4em;
-  }
-}
-
-@media screen and (min-width: 1224px) {
-  .multiLogoWrapper{
+  .multiImgWrapperSquare {
     height: 250px;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .multiLogoWrapper {
+    height: 210px;
+  }
+
+  .finalLogo {
+    margin-left: 4em;
+  }
+  .multiImgWrapperSquare {
+    height: 325px;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .multiLogoWrapper {
+    height: 250px;
+  }
+  .multiImgWrapperSquare {
+    height: 400px;
+  }
+}
+
 @media screen and (min-width: 1824px) {
-  .multiLogoWrapper{
+  .multiLogoWrapper {
     height: 290px;
+    .multiImgWrapperSquare {
+      height: 450px;
+    }
   }
 }

@@ -56,7 +56,7 @@ function Citadel() {
           />
         </div>
         <img src="/portfolioImages/citadel/volunteerGraphic.png" data-aos="fade-left" data-aos-duration="1000"/>
-        <div className="multiImgWrapper">
+        <div className="multiImgWrapperSquare">
           <img
             className="thirdImg"
             src="/portfolioImages/citadel/tshirtFront2.png"
