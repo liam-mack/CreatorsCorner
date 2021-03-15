@@ -90,11 +90,16 @@ $pink: #D97D6C;
     color: $pink !important;
     border: 2px solid $pink !important;
     margin-bottom: 2em !important;
+    text-decoration: none;
     &:hover{
         color: #ffffff !important;
         border: 2px solid $pink !important;
         background-color: $pink !important;
     }
+}
+
+button a {
+    width: 150px
 }
 
 .navyBtn {

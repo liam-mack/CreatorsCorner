@@ -11,6 +11,13 @@ $navy: #2A3240;
     justify-content: space-between !important;
 }
 
+.portfolioContainer{
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+
 .portfolioColumn{
     max-width: 500px !important;
     margin-bottom: 2em !important;
@@ -58,9 +65,15 @@ $navy: #2A3240;
 }
 
 .workTogether{
-    max-width: 50%;
+    max-width: 90%;
     margin: 1em auto 2em auto;
-    font-size: 23px;
+    font-size: 16px;
     line-height: 32px;
     color: $navy
+}
+
+@media screen and (min-width:768px) {
+    .workTogether{
+        max-width: 50%;
+    }
 }

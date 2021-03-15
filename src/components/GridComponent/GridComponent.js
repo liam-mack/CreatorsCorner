@@ -16,14 +16,15 @@ function GridComponent({
   buttonColour,
   buttonLink,
   buttonLinks,
-  sectionId
+  sectionId,
+  externalLink
 }) {
   return (
     <div
       className={bgColour ? `gridComponent ${bgColour}` : "gridComponent"}
       id={sectionId}
     >
-      <div className="container">
+      <div className="gridContainer">
         {topLine && (
           <h1 className={lightText ? "top-line" : "top-line dark"}>
             {topLine}
@@ -32,25 +33,43 @@ function GridComponent({
         {rows.map(function (firstRow, idx) {
           return (
             <div className="gridRow">
-              <div className="gridColumn" data-aos="fade-right" data-aos-duration="2000">
+              <div
+                className="gridColumn"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 {img && (
-                  <img className="gridImg" src={img[firstRow]} alt={alt[firstRow]} />
+                  <img
+                    className="gridImg"
+                    src={img[firstRow]}
+                    alt={alt[firstRow]}
+                  />
                 )}
                 <div className={lightText ? "columnText" : "columnText dark"}>
                   <div className="columnTitle">{title[firstRow]}</div>
                   <div className="columnBody">{body[firstRow]}</div>
                   {buttonLinks && (
                     <div className="buttonWrapper">
-                      <Link to={buttonLinks[firstRow]}>
-                        <Button buttonColour={buttonColour}>
+                     {externalLink ? (
+                        <a className={buttonColour} href={buttonLinks[firstRow]} target="_blank">
                           {buttonLabel}
-                        </Button>
-                      </Link>
+                        </a>
+                      ) : (
+                        <Link to={buttonLinks[firstRow + 1]}>
+                          <Button buttonColour={buttonColour}>
+                            {buttonLabel}
+                          </Button>
+                        </Link>
+                      )}
                     </div>
                   )}
                 </div>
               </div>
-              <div className="gridColumn" data-aos="fade-left" data-aos-duration="1500">
+              <div
+                className="gridColumn"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
                 {img && (
                   <img
                     className="gridImg"
@@ -63,11 +82,17 @@ function GridComponent({
                   <div className="columnBody">{body[firstRow + 1]}</div>
                   {buttonLinks && (
                     <div className="buttonWrapper">
-                      <Link to={buttonLinks[firstRow + 1]}>
-                        <Button buttonColour={buttonColour}>
+                      {externalLink ? (
+                        <a className={buttonColour} href={buttonLinks[firstRow + 1]} target="_blank">
                           {buttonLabel}
-                        </Button>
-                      </Link>
+                        </a>
+                      ) : (
+                        <Link to={buttonLinks[firstRow + 1]}>
+                          <Button buttonColour={buttonColour}>
+                            {buttonLabel}
+                          </Button>
+                        </Link>
+                      )}
                     </div>
                   )}
                 </div>

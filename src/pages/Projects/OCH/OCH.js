@@ -21,7 +21,7 @@ function OCH() {
       />
       <PortfolioIntro {...ochObj} />
       <PortfolioDivider text="PROJECT 1: LOGO DESIGN" bgColour="#2EC4E9" />
-      <div className="container">
+      <div className="portfolioContainer">
         <p className="portfolioHeader">Concepts:</p>
         <div className="multiLogoWrapper">
           <img
@@ -59,7 +59,7 @@ function OCH() {
         text="PROJECT 2: GRAPHIC DESIGN - BANNER & FLYERS"
         bgColour="#2EC4E9"
       />
-      <div className="container">
+      <div className="portfolioContainer">
         <p className="portfolioHeader">Banner designs:</p>
         <div className="multiImgWrapper">
           <img className="halfImg" src="portfolioImages/och/banner4.png" />

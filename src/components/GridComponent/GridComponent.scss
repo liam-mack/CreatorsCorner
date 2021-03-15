@@ -3,6 +3,13 @@
     margin-top: -2.1em;
 }
 
+.gridContainer {
+    z-index: 1;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 .gridRow{
     display: flex;
     // flex-direction: column;
@@ -49,3 +56,10 @@
         justify-content: space-evenly;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .gridContainer {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }

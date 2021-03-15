@@ -16,7 +16,7 @@ function FauxList({
   sectionId,
 }) {
   return (
-    <div className="container">
+    <div className="fauxListWrapper container">
       <div className="col">
         <div className="primary__hero-text-wrapper-paragraph" id={sectionId}>
           {headline && <h1 className="heading dark">{headline}</h1>}

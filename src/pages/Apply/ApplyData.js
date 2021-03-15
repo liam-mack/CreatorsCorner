@@ -9,8 +9,9 @@ export const applyObjOne = {
     "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!",
   ],
   buttonLabel: "Apply Here",
-  buttonLinks: ["/Apply", "/Apply"],
+  buttonLinks: ["https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link", "https://docs.google.com/forms/d/1AQvypdhHlwEykFlYQW-t2BMMfYV5ZAVrE5svCR2DQr4/"],
   buttonColour: "pinkBtn",
+  externalLink: true,
 };
 
 export const applyObjTwo = {

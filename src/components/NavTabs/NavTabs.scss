@@ -24,17 +24,19 @@ $white: #ffffff;
   padding: 0 !important;
   margin: 0 !important;
   width: 90%;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
 }
 
 .container {
   z-index: 1;
-  /* width: 100%; */
-  max-width: 80%;
+  max-width: 60%;
   margin-right: auto;
   margin-left: auto;
-  // padding-right: 50px;
-  // padding-left: 50px;
 }
+
 
 .navbar-logo {
   color: #fff;

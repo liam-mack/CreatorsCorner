@@ -17,7 +17,7 @@ function PortfolioGrid({
 }) {
   return (
     <div className="portfolioComponent" id={sectionId}>
-      <div className="container">
+      <div className="portfolioContainer">
         {rows.map(function (rowNumber, idx) {
           return (
             <div className="gridRow portfolioRow">

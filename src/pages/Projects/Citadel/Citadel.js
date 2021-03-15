@@ -22,7 +22,7 @@ function Citadel() {
       />
       <PortfolioIntro {...citadelObj}/>
       <PortfolioDivider text="PROJECT 1: LOGO REDESIGN" bgColour="#233976" />
-      <div className="container">
+      <div className="portfolioContainer">
         <p className="portfolioHeader">Their original logo:</p>
         <img
           className="citadelLogo"
@@ -39,7 +39,7 @@ function Citadel() {
         />
       </div>
       <PortfolioDivider text="PROJECT 2: GRAPHIC DESIGN" bgColour="#233976" />
-      <div className="container">
+      <div className="portfolioContainer">
         <img src="/portfolioImages/citadel/bannerGraphic.png" data-aos="fade-left" data-aos-duration="1000"/>
         <div className="multiImgWrapper">
           <img

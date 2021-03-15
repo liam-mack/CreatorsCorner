@@ -17,7 +17,7 @@ $white: #ffffff;
 /* PrimaryComponent Strip Wrapper*/
 .primary__hero-section {
   color: #fff;
-  padding-bottom: 2em;
+  padding: 2em 0;
   margin-top: 25em;
 }
 
@@ -93,7 +93,7 @@ $white: #ffffff;
 
 .primary__hero-body {
   max-width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   margin: 0 0 1em 0;
   text-align: justify;  
@@ -301,7 +301,7 @@ img {
       margin: auto 0;
   }
   .col .primary__hero-text-wrapper-paragraph {
-      max-width: 70%;
+      // max-width: 70%;
       margin: auto;
       margin-top: 2.5em;
   }
@@ -313,7 +313,7 @@ img {
 
 /* Screen sizes below 1000px */
 @media screen and (max-width: 1000px) {
-  .container {
+  .container, .navbar-container {
     padding-right: 30px;
     padding-left: 30px;
   }

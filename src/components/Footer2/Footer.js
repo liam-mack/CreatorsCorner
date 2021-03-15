@@ -6,7 +6,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <div className="footerContainer">
-      <div className="container">
+      <div className="portfolioContainer">
         <div className="footerLinks">
           <div className="footer-link-wrapper">
             <div className="footer-link-items socials">
@@ -46,7 +46,7 @@ function Footer() {
                 >
                   <img
                     className="footer-socials-img"
-                    src="images/footerLinkedIn.png"
+                    src="images/letterLinkedIn.png"
                   ></img>
                 </a>
               </div>
@@ -54,94 +54,94 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/" exact={true} activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/" exact={true} activeClassName="selectedNav">
                 <h2>Home</h2>
               </NavLink>
-              <HashLink smooth to="/Home#about">
+              <HashLink className="subFooter"smooth to="/Home#about">
                 What We Do
               </HashLink>
-              <HashLink smooth to="/Home#services">
+              <HashLink className="subFooter"smooth to="/Home#services">
                 Our Services
               </HashLink>
-              <HashLink smooth to="/Home#apply">
+              <HashLink className="subFooter"smooth to="/Home#apply">
                 Apply
               </HashLink>
-              <HashLink smooth to="/Home#follow">
+              <HashLink className="subFooter"smooth to="/Home#follow">
                 Follow Our Mission
               </HashLink>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/About" activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/About" activeClassName="selectedNav">
                 <h2>About</h2>
               </NavLink>
-              <HashLink smooth to="/About#us">
+              <HashLink className="subFooter"smooth to="/About#us">
                 Who Are We?
               </HashLink>
-              <HashLink smooth to="/About#mission">
+              <HashLink className="subFooter"smooth to="/About#mission">
                 Our Mission
               </HashLink>
-              <HashLink smooth to="/About#values">
+              <HashLink className="subFooter"smooth to="/About#values">
                 Our Values
               </HashLink>
-              <HashLink smooth to="/About#team">
+              <HashLink className="subFooter"smooth to="/About#team">
                 Our Team
               </HashLink>
-              <HashLink smooth to="/About#letter">
-                A Letter from our Founder
+              <HashLink className="subFooter"smooth to="/About#letter">
+                Letter from our Founder
               </HashLink>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/Portfolio" activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/Portfolio" activeClassName="selectedNav">
                 <h2>Portfolio</h2>
               </NavLink>
-              <HashLink smooth to="/Portfolio#highlights">
+              <HashLink className="subFooter"smooth to="/Portfolio#highlights">
                 Highlights
               </HashLink>
-              <HashLink smooth to="/Portfolio#portfolio">
+              <HashLink className="subFooter"smooth to="/Portfolio#portfolio">
                 Portfolio
               </HashLink>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/Apply" activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/Apply" activeClassName="selectedNav">
                 <h2>Apply</h2>
               </NavLink>
-              <HashLink smooth to="/Apply#ApplyBanner">
+              <HashLink className="subFooter"smooth to="/Apply#ApplyBanner">
                 Apply
               </HashLink>
-              <HashLink smooth to="/Apply#FAQ">
+              <HashLink className="subFooter"smooth to="/Apply#FAQ">
                 FAQ
               </HashLink>
-              <HashLink smooth to="/Apply#commitment">
+              <HashLink className="subFooter"smooth to="/Apply#commitment">
                 What It Takes
               </HashLink>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/Events" activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/Events" activeClassName="selectedNav">
                 <h2>Events</h2>
               </NavLink>
-              <HashLink smooth to="/Events#upcoming">
+              <HashLink className="subFooter"smooth to="/Events#upcoming">
                 Upcoming Events
               </HashLink>
-              <HashLink smooth to="/Events#speakers">
+              <HashLink className="subFooter"smooth to="/Events#speakers">
                 Past Speakers
               </HashLink>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink to="/Contact" activeClassName="selectedNav">
+              <NavLink className="footerNav" to="/Contact" activeClassName="selectedNav">
                 <h2>Contact Us</h2>
               </NavLink>
-              <HashLink smooth to="/Contact/#contact-form">Send us a Message</HashLink>
-              <HashLink smooth to="/Contact/#follow">
+              <HashLink className="subFooter"smooth to="/Contact/#contact-form">Send us a Message</HashLink>
+              <HashLink className="subFooter"smooth to="/Contact/#follow">
                 Follow our Mission
               </HashLink>
             </div>

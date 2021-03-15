@@ -32,7 +32,7 @@ function NavTabs() {
 
     <>
       <div className="navbar">
-        <div className="navbar-container container">
+        <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeHamburger}>
             <img height={40} src="/images/ccLogoW2.png" alt="logo" />
           </Link>

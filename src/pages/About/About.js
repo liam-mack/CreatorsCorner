@@ -34,9 +34,9 @@ function About() {
       <PrimaryComponent {...aboutObjOne} />
       <PrimaryComponent {...aboutObjTwo} />
       <PrimaryComponent {...aboutObjThree} />
-      <div className="staffDirectoryWrapper">
-        <PrimaryComponent {...aboutObjFour} />
-        <StaffDirectory staff={exec} />
+        <div className="staffDirectoryWrapper">
+          <PrimaryComponent {...aboutObjFour} />
+          <StaffDirectory staff={exec} />
       </div>
       <div className="staffDirectoryWrapper">
         <PrimaryComponent {...aboutObjFive} />

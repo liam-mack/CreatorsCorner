@@ -21,14 +21,14 @@ function Rainbow() {
       />
       <PortfolioIntro {...rainbowObj} />
       <PortfolioDivider text="PROJECT 1: WEB DESIGN" bgColour="#EF5E63" />
-      <div className="container">
+      <div className="portfolioContainer">
         <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSite.png" data-aos="fade-left" data-aos-duration="1000"/>
       </div>
       <PortfolioDivider
         text="PROJECT 2: SOCIAL MEDIA DESIGN"
         bgColour="#EF5E63"
       />
-      <div className="container">
+      <div className="portfolioContainer">
         <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSM.png" data-aos="fade-up" data-aos-duration="1000"/>
       </div>
       <div

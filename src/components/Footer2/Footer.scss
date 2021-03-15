@@ -33,9 +33,11 @@ $white: #ffffff;
 
 .footer-link-wrapper {
   display: flex;
+  min-width: 150px;
+  // min-width: 0px
 }
 .footer-link-wrapper:nth-child(1) {
-  width: 250px
+  min-width: 250px
 }
 
 .footer-link-items {
@@ -54,6 +56,15 @@ $white: #ffffff;
 
 .footer-link-items > h2 {
   color: $navy;
+}
+
+.footerNav h2{
+  font-size: 19px !important
+}
+
+.subFooter{
+  font-size: 12px;
+  width: 100%
 }
 
 .footer-link-items a {
