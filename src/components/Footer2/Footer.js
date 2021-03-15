@@ -57,16 +57,16 @@ function Footer() {
               <NavLink to="/" exact={true} activeClassName="selectedNav">
                 <h2>Home</h2>
               </NavLink>
-              <HashLink smooth to="/Home#homeAbout">
+              <HashLink to="/Home#homeAbout">
                 What We Do
               </HashLink>
-              <HashLink smooth to="/Home#homeServices">
+              <HashLink to="/Home#homeServices">
                 Our Services
               </HashLink>
-              <HashLink smooth to="/Home#homeApply">
+              <HashLink to="/Home#homeApply">
                 Apply
               </HashLink>
-              <HashLink smooth to="/Home#homeFollow">
+              <HashLink to="/Home#homeFollow">
                 Follow Our Mission
               </HashLink>
             </div>
@@ -76,19 +76,19 @@ function Footer() {
               <NavLink to="/About" activeClassName="selectedNav">
                 <h2>About</h2>
               </NavLink>
-              <HashLink smooth to="/About#aboutWho">
+              <HashLink to="/About#aboutWho">
                 Who Are We?
               </HashLink>
-              <HashLink smooth to="/About#aboutMission">
+              <HashLink to="/About#aboutMission">
                 Our Mission
               </HashLink>
-              <HashLink smooth to="/About#aboutValues">
+              <HashLink to="/About#aboutValues">
                 Our Values
               </HashLink>
-              <HashLink smooth to="/About#aboutTeam">
+              <HashLink to="/About#aboutTeam">
                 Our Team
               </HashLink>
-              <HashLink smooth to="/About#aboutLetter">
+              <HashLink to="/About#aboutLetter">
                 A Letter from our Founder
               </HashLink>
             </div>
@@ -98,10 +98,10 @@ function Footer() {
               <NavLink to="/Portfolio" activeClassName="selectedNav">
                 <h2>Portfolio</h2>
               </NavLink>
-              <HashLink smooth to="/Portfolio#projectHighlights">
+              <HashLink to="/Portfolio#projectHighlights">
                 Highlights
               </HashLink>
-              <HashLink smooth to="/Portfolio#projectPortfolio">
+              <HashLink to="/Portfolio#projectPortfolio">
                 Portfolio
               </HashLink>
             </div>
@@ -111,13 +111,13 @@ function Footer() {
               <NavLink to="/Apply" activeClassName="selectedNav">
                 <h2>Apply</h2>
               </NavLink>
-              <HashLink smooth to="/Apply#ApplyBanner">
+              <HashLink to="/Apply#ApplyBanner">
                 Apply
               </HashLink>
-              <HashLink smooth to="/Apply#applyClient">
+              <HashLink to="/Apply#applyClient">
                 FAQ
               </HashLink>
-              <HashLink smooth to="/Apply#applyList">
+              <HashLink to="/Apply#applyList">
                 What It Takes
               </HashLink>
             </div>
@@ -127,10 +127,10 @@ function Footer() {
               <NavLink to="/Events" activeClassName="selectedNav">
                 <h2>Events</h2>
               </NavLink>
-              <HashLink smooth to="/Events#eventUpcoming">
+              <HashLink to="/Events#eventUpcoming">
                 Upcoming Events
               </HashLink>
-              <HashLink smooth to="/Events#eventSpeakers">
+              <HashLink to="/Events#eventSpeakers">
                 Past Speakers
               </HashLink>
             </div>
@@ -141,7 +141,7 @@ function Footer() {
                 <h2>Contact Us</h2>
               </NavLink>
               <Link to="/Contact">Send us a Message</Link>
-              <HashLink smooth to="/Contact#contactFollow">
+              <HashLink to="/Contact#contactFollow">
                 Follow our Mission
               </HashLink>
             </div>
