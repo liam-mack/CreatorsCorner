@@ -73,7 +73,6 @@ $white: #ffffff;
 /* PrimaryComponent Header - changed by props (Default: white) */
 .heading {
 //   margin-bottom: 2em;
-  margin-top: 0;
   font-size: 36px;
   line-height: 1.1;
   font-weight: 600;
@@ -283,6 +282,11 @@ img {
 
 // Modal Breakpoints - Mobile First (TYBG)
 @media screen and (min-width: 768px) {
+
+  .heading{
+    margin-top: 0;
+
+  }
   
   .programsRow {
     flex-direction: row !important;

@@ -140,8 +140,8 @@ function Footer() {
               <NavLink to="/Contact" activeClassName="selectedNav">
                 <h2>Contact Us</h2>
               </NavLink>
-              <HashLink smooth to="/Contact#contact-form">Send us a Message</HashLink>
-              <HashLink smooth to="/Contact#follow">
+              <HashLink smooth to="/Contact/#contact-form">Send us a Message</HashLink>
+              <HashLink smooth to="/Contact/#follow">
                 Follow our Mission
               </HashLink>
             </div>
