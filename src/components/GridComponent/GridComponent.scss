@@ -12,6 +12,9 @@
 }
 
 .gridColumn{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     flex-basis: 100%;
     flex: 1;
@@ -19,18 +22,14 @@
 }
 
 .gridImg{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+
     max-width: 100px;
     display: flex;
     margin: auto 0;
 }
 
 .columnText{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+
     margin: auto 0;
     max-width: 340px;
 }
