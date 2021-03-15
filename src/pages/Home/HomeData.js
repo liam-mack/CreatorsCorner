@@ -1,6 +1,6 @@
 
 export const homeObjOne= { 
-    sectionId: "homeAbout",
+    sectionId: "about",
     lightText: false,
     lightTextDescription: false,
     topLine: "WHAT WE DO",
@@ -15,7 +15,7 @@ export const homeObjOne= {
 }
 
 export const homeObjTwo= {
-    sectionId: "homeServices",
+    sectionId: "services",
     bgColour: "teal",
     lightText: false,
     topLine: "OUR PRO-BONO SERVICES",
@@ -27,7 +27,7 @@ export const homeObjTwo= {
 }
 
 export const homeObjThree= {
-    sectionId: "homeApply",
+    sectionId: "apply",
     lightText: false,
     topLine: "APPLY",
     rows: [0],
@@ -39,7 +39,7 @@ export const homeObjThree= {
 }
 
 export const homeObjFour= {
-    sectionId: "homeFollow",
+    sectionId: "follow",
     lightText: true, 
     bgColour: "peach",
     topLine: "FOLLOW OUR MISSION",

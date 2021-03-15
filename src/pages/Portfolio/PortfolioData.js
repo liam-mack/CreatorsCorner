@@ -12,7 +12,7 @@
 // }
 export const projectObjOne = {
   rows: [0,2],
-  sectionId: "projectPortfolio",
+  sectionId: "portfolio",
   img: ["/images/Citadel.png","/images/Rainbow.png","/images/OCH.png"],
   imgLink: ["/Projects-Citadel", "/Projects-Rainbow", "/Projects-OCH"],
   alt: ["Citadel Canine Portfolio", "Rainbow Kidschool Portfolio", "Operation Come Home Portfolio"],

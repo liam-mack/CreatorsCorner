@@ -1,5 +1,5 @@
 export const applyObjOne = {
-  sectionId: "applyApply",
+  sectionId: "application",
   lightText: false,
   // topLine: "Apply",
   rows: [0],
@@ -14,7 +14,7 @@ export const applyObjOne = {
 };
 
 export const applyObjTwo = {
-  sectionId: "applyClient",
+  sectionId: "FAQ",
   bgColour: "teal",
   lightText: false,
   lightTextDescription: false,
@@ -35,7 +35,7 @@ export const applyObjTwo = {
   ],
 };
 export const applyObjThree = {
-  sectionId: "applyMember",
+  sectionId: "apply-FAQ-member",
   bgColour: "peach",
   lightText: true,
   lightTextDescription: true,
@@ -59,7 +59,7 @@ export const applyObjThree = {
 };
 
 export const applyObjFour = {
-  sectionId: "applyList",
+  sectionId: "commitment",
   lightText: false,
   lightTextDescription: false,
   headline: "What does it take to be on this team?",

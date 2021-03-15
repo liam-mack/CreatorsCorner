@@ -4,7 +4,7 @@ import "./ContactForm.scss";
 // Formspree currently has a form handler & Thank You page, but it should be redirected
 function Contact() {
   return (
-    <div className="container contact">
+    <div className="container contact" id="contact-form">
       <div className="row primary__hero-row">
         <div className="contactCol">
           <form

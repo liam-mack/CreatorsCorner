@@ -1,5 +1,5 @@
 export const aboutObjOne= { 
-    sectionId: "aboutWho",
+    sectionId: "us",
     bgColour: "grey",
     lightText: false,
     lightTextDescription: false,
@@ -13,7 +13,7 @@ export const aboutObjOne= {
 }
 
 export const aboutObjTwo= { 
-    sectionId: "aboutMission",
+    sectionId: "mission",
     lightText: false,
     lightTextDescription: false,
     headline: "OUR MISSION",
@@ -26,7 +26,7 @@ export const aboutObjTwo= {
 }
 
 export const aboutObjThree= { 
-    sectionId: "aboutValues",
+    sectionId: "values",
     bgColour: "navy",
     lightText: true,
     lightTextDescription: true,
@@ -40,7 +40,7 @@ export const aboutObjThree= {
 }
 
 export const aboutObjFour= { 
-    sectionId: "aboutTeam",
+    sectionId: "team",
     lightText: false,
     lightTextDescription: false,
     headline: "OUR TEAM",
@@ -49,21 +49,21 @@ export const aboutObjFour= {
 }
 
 export const aboutObjFive= { 
-    sectionId: "aboutDesign",
+    sectionId: "design",
     lightText: false,
     lightTextDescription: false,
     headers: ["Design"],
     body: "Our design team is made up of creative, passionate, and hard-working students. They're in charge of all design needs required by our clients, which can include branding, website design, graphic & social media design, merchandise, and more!",
 }
 export const aboutObjSix= { 
-    sectionId: "aboutDevelop",
+    sectionId: "develop",
     lightText: false,
     lightTextDescription: false,
     headers: ["Development"],
     body: "Our development team are the brains behind the operation, they work really hard to build working websites and apps. In addition to managing our club's website, they work with our design team to bring prototypes to life and ensure our client's websites are operating seamlessly.",
 }
 export const aboutObjSeven= { 
-    sectionId: "aboutMarket",
+    sectionId: "marketing",
     lightText: false,
     lightTextDescription: false,
     headers: ["Marketing"],
@@ -71,7 +71,7 @@ export const aboutObjSeven= {
 }
 
 export const aboutObjEight= { 
-    sectionId: "aboutLetter",
+    sectionId: "letter",
     bgColour: "teal",
     lightText: false,
     lightTextDescription: false,

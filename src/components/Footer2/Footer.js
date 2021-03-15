@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.scss";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import "./Footer.scss";
 
 function Footer() {
   return (
@@ -57,16 +57,16 @@ function Footer() {
               <NavLink to="/" exact={true} activeClassName="selectedNav">
                 <h2>Home</h2>
               </NavLink>
-              <HashLink to="/Home#homeAbout">
+              <HashLink smooth to="/Home#about">
                 What We Do
               </HashLink>
-              <HashLink to="/Home#homeServices">
+              <HashLink smooth to="/Home#services">
                 Our Services
               </HashLink>
-              <HashLink to="/Home#homeApply">
+              <HashLink smooth to="/Home#apply">
                 Apply
               </HashLink>
-              <HashLink to="/Home#homeFollow">
+              <HashLink smooth to="/Home#follow">
                 Follow Our Mission
               </HashLink>
             </div>
@@ -76,19 +76,19 @@ function Footer() {
               <NavLink to="/About" activeClassName="selectedNav">
                 <h2>About</h2>
               </NavLink>
-              <HashLink to="/About#aboutWho">
+              <HashLink smooth to="/About#us">
                 Who Are We?
               </HashLink>
-              <HashLink to="/About#aboutMission">
+              <HashLink smooth to="/About#mission">
                 Our Mission
               </HashLink>
-              <HashLink to="/About#aboutValues">
+              <HashLink smooth to="/About#values">
                 Our Values
               </HashLink>
-              <HashLink to="/About#aboutTeam">
+              <HashLink smooth to="/About#team">
                 Our Team
               </HashLink>
-              <HashLink to="/About#aboutLetter">
+              <HashLink smooth to="/About#letter">
                 A Letter from our Founder
               </HashLink>
             </div>
@@ -98,10 +98,10 @@ function Footer() {
               <NavLink to="/Portfolio" activeClassName="selectedNav">
                 <h2>Portfolio</h2>
               </NavLink>
-              <HashLink to="/Portfolio#projectHighlights">
+              <HashLink smooth to="/Portfolio#highlights">
                 Highlights
               </HashLink>
-              <HashLink to="/Portfolio#projectPortfolio">
+              <HashLink smooth to="/Portfolio#portfolio">
                 Portfolio
               </HashLink>
             </div>
@@ -111,13 +111,13 @@ function Footer() {
               <NavLink to="/Apply" activeClassName="selectedNav">
                 <h2>Apply</h2>
               </NavLink>
-              <HashLink to="/Apply#ApplyBanner">
+              <HashLink smooth to="/Apply#ApplyBanner">
                 Apply
               </HashLink>
-              <HashLink to="/Apply#applyClient">
+              <HashLink smooth to="/Apply#FAQ">
                 FAQ
               </HashLink>
-              <HashLink to="/Apply#applyList">
+              <HashLink smooth to="/Apply#commitment">
                 What It Takes
               </HashLink>
             </div>
@@ -127,10 +127,10 @@ function Footer() {
               <NavLink to="/Events" activeClassName="selectedNav">
                 <h2>Events</h2>
               </NavLink>
-              <HashLink to="/Events#eventUpcoming">
+              <HashLink smooth to="/Events#upcoming">
                 Upcoming Events
               </HashLink>
-              <HashLink to="/Events#eventSpeakers">
+              <HashLink smooth to="/Events#speakers">
                 Past Speakers
               </HashLink>
             </div>
@@ -140,8 +140,8 @@ function Footer() {
               <NavLink to="/Contact" activeClassName="selectedNav">
                 <h2>Contact Us</h2>
               </NavLink>
-              <Link to="/Contact">Send us a Message</Link>
-              <HashLink to="/Contact#contactFollow">
+              <HashLink smooth to="/Contact#contact-form">Send us a Message</HashLink>
+              <HashLink smooth to="/Contact#follow">
                 Follow our Mission
               </HashLink>
             </div>

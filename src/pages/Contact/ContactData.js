@@ -1,5 +1,5 @@
 export const contactObjOne= {
-    sectionId: "contactFollow",
+    sectionId: "follow",
     lightText: false, 
     topLine: "Or Follow our Mission Here",
     img: ["/images/contactIG.png", "/images/contactFB.png", "/images/contactLinkedIn.png", ],
