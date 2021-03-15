@@ -20,7 +20,7 @@ export const homeObjTwo= {
     lightText: false,
     topLine: "OUR PRO-BONO SERVICES",
     rows: [0,2],
-    // img: ["/images/iconDesign.png","/images/iconBranding.png","/images/iconTech.png","/images/iconMarketing.png"],
+    img: ["/images/iconDesign.png","/images/iconBranding.png","/images/iconTech.png","/images/iconMarketing.png"],
     alt: ["Design Icon", "Branding Icon", "Technology Icon", "Marketing Icon"],
     title: ["Design","Branding","Technology","Marketing"],
     body: ["Graphic design, UI/UX design, merchandise, etc.","Logos, colour palettes, iconography, web design, etc.","Promo videos, app creation, web design & creation, etc.","Social media calendars, fundraising plans, social media content, marketing ideas, etc."],
