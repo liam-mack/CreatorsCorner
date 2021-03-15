@@ -57,7 +57,7 @@ function Footer() {
               <NavHashLink className="footerNav" smooth to="/#Home" exact={true} activeClassName="selectedNav">
                 <h2>Home</h2>
               </NavHashLink>
-              <HashLink className="subFooter"smooth to="/Home#about">
+              <HashLink className="subFooter"smooth to="/Home#top">
                 What We Do
               </HashLink>
               <HashLink className="subFooter"smooth to="/Home#services">
@@ -73,7 +73,7 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavHashLink className="footerNav" smooth to="/About#About" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/About#top" activeClassName="selectedNav">
                 <h2>About</h2>
               </NavHashLink>
               <HashLink className="subFooter"smooth to="/About#us">
@@ -95,7 +95,7 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavHashLink className="footerNav" smooth to="/Portfolio#Portfolio" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Portfolio#top" activeClassName="selectedNav">
                 <h2>Portfolio</h2>
               </NavHashLink>
               <HashLink className="subFooter"smooth to="/Portfolio#highlights">
@@ -108,7 +108,7 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavHashLink className="footerNav" smooth to="/Apply#Apply" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Apply#top" activeClassName="selectedNav">
                 <h2>Apply</h2>
               </NavHashLink>
               <HashLink className="subFooter"smooth to="/Apply#Apply">
@@ -124,7 +124,7 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavHashLink className="footerNav" smooth to="/Events#Events" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Events#top" activeClassName="selectedNav">
                 <h2>Events</h2>
               </NavHashLink>
               <HashLink className="subFooter"smooth to="/Events#upcoming">
@@ -137,7 +137,7 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavHashLink className="footerNav" smooth to="/Contact#Contact" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Contact#top" activeClassName="selectedNav">
                 <h2>Contact</h2>
               </NavHashLink>
               <HashLink className="subFooter"smooth to="/Contact#contact-form">Send us a Message</HashLink>
