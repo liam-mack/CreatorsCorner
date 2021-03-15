@@ -11,7 +11,7 @@ import "./Contact.scss";
 function Contact(props) {
   return (
     <div className="contactPage">
-      <ScrollToTopOnMount />
+      {/* <ScrollToTopOnMount /> */}
       <BannerImage name='hero' banner="ContactBanner" alt="Contact banner" title="CONTACT US"/>
       <ContactForm />
       <PrimaryComponent {...contactObjOne} />

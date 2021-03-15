@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Footer.scss";
 
@@ -137,8 +137,8 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/Contact" activeClassName="selectedNav">
-                <h2>Contact Us</h2>
+              <NavLink className="footerNav" to="/Contact#ContactBanner" activeClassName="selectedNav">
+                <h2>Contact</h2>
               </NavLink>
               <HashLink className="subFooter"smooth to="/Contact/#contact-form">Send us a Message</HashLink>
               <HashLink className="subFooter"smooth to="/Contact/#follow">
