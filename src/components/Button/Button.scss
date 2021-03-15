@@ -67,14 +67,14 @@ $pink: #D97D6C;
 
 
 .pinkBtn {
-    background-color: #ffffff;
-    color: $pink;
-    border: 2px solid $pink;
-    margin-bottom: 2em;
+    background-color: #ffffff !important;
+    color: $pink !important;
+    border: 2px solid $pink !important;
+    margin-bottom: 2em !important;
     &:hover{
-        color: #ffffff;
-        border: 2px solid $pink;
-        background-color: $pink;
+        color: #ffffff !important;
+        border: 2px solid $pink !important;
+        background-color: $pink !important;
     }
 }
 

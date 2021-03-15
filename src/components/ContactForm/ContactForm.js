@@ -39,7 +39,7 @@ function Contact() {
               required
             ></textarea>
             <h6 className="contactEmail"><i className="fa fa-envelope-o" aria-hidden="true"></i> creatorscornercu@gmail.com</h6>
-            <input className="pinkBtn btn" type="submit" value="Submit" />
+            <input className="btn pinkBtn" type="submit" value="Submit" />
           </form>
         </div>
       </div>
