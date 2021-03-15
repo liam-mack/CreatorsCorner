@@ -23,6 +23,9 @@ $pink: #D97D6C;
     }
 }
 %btn-basic {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     font-family: "AvenirBook";
     margin: 1em 0 1em 0;
     padding: 15px 35px;
