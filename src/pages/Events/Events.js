@@ -38,7 +38,7 @@ function About() {
       <div className="container">
         <h1 className="newsTitle">Page 3</h1>
       </div>
-      <div className="container eventSection" id="eventUpcoming">
+      <div className="container eventSection" id="upcoming">
         <h1 className="eventSection-header">UPCOMING EVENTS</h1>
         <div className="upcomingWrapper">
           <UpcomingEvent day="16" title="Team Meeting"/>

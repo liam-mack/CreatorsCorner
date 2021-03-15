@@ -17,7 +17,7 @@ function Carousel() {
 //     setX(x - 100);
 //   };
   return (
-    <div className="carousel" id="projectHighlights">
+    <div className="carousel" id="highlights">
       {carouselArray.map((item, index) => {
         return (
           <div
