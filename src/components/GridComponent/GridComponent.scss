@@ -19,13 +19,19 @@
 }
 
 .gridImg{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     max-width: 100px;
     display: flex;
-    // margin: auto 0;
+    margin: auto 0;
 }
 
 .columnText{
-    // margin: auto 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: auto 0;
     max-width: 340px;
 }
 
