@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { Button } from "../../components/Button/Button";
-import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../components/Footer2/Footer";
 import UpcomingEvent from "../../components/UpcomingEvent/UpcomingEvent";
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
@@ -33,8 +32,7 @@ function About() {
 
   return (
     <div className="eventsPage">
-      <ScrollToTopOnMount />
-      <BannerImage name='hero' banner="EventsBanner" alt="News and Events Page Banner" title="NEWS & EVENTS"/>
+      <BannerImage name='hero' banner="Events" alt="News and Events Page Banner" title="NEWS & EVENTS"/>
       <div className="container">
         <h1 className="newsTitle">Page 3</h1>
       </div>

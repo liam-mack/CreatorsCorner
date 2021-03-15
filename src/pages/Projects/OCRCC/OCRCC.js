@@ -14,7 +14,7 @@ function OCRCC() {
       <ScrollToTopOnMount />
       <BannerImage
         name="hero"
-        banner="ProjectsBanner"
+        banner="Projects"
         alt="Creator's Corner Portfolio Banner"
         title="OPERATION COME HOME"
         desc="January 2021"

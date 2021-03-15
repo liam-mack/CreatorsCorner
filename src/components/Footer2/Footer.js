@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import "./Footer.scss";
 
 function Footer() {
@@ -54,9 +54,9 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/" exact={true} activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/#Home" exact={true} activeClassName="selectedNav">
                 <h2>Home</h2>
-              </NavLink>
+              </NavHashLink>
               <HashLink className="subFooter"smooth to="/Home#about">
                 What We Do
               </HashLink>
@@ -73,9 +73,9 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/About" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/About#About" activeClassName="selectedNav">
                 <h2>About</h2>
-              </NavLink>
+              </NavHashLink>
               <HashLink className="subFooter"smooth to="/About#us">
                 Who Are We?
               </HashLink>
@@ -95,9 +95,9 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/Portfolio" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Portfolio#Portfolio" activeClassName="selectedNav">
                 <h2>Portfolio</h2>
-              </NavLink>
+              </NavHashLink>
               <HashLink className="subFooter"smooth to="/Portfolio#highlights">
                 Highlights
               </HashLink>
@@ -108,10 +108,10 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/Apply" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Apply#Apply" activeClassName="selectedNav">
                 <h2>Apply</h2>
-              </NavLink>
-              <HashLink className="subFooter"smooth to="/Apply#ApplyBanner">
+              </NavHashLink>
+              <HashLink className="subFooter"smooth to="/Apply#Apply">
                 Apply
               </HashLink>
               <HashLink className="subFooter"smooth to="/Apply#FAQ">
@@ -124,9 +124,9 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/Events" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Events#Events" activeClassName="selectedNav">
                 <h2>Events</h2>
-              </NavLink>
+              </NavHashLink>
               <HashLink className="subFooter"smooth to="/Events#upcoming">
                 Upcoming Events
               </HashLink>
@@ -137,11 +137,11 @@ function Footer() {
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <NavLink className="footerNav" to="/Contact#ContactBanner" activeClassName="selectedNav">
+              <NavHashLink className="footerNav" smooth to="/Contact#Contact" activeClassName="selectedNav">
                 <h2>Contact</h2>
-              </NavLink>
-              <HashLink className="subFooter"smooth to="/Contact/#contact-form">Send us a Message</HashLink>
-              <HashLink className="subFooter"smooth to="/Contact/#follow">
+              </NavHashLink>
+              <HashLink className="subFooter"smooth to="/Contact#contact-form">Send us a Message</HashLink>
+              <HashLink className="subFooter"smooth to="/Contact#follow">
                 Follow our Mission
               </HashLink>
             </div>

@@ -16,17 +16,15 @@ import exec from "../../teamdb/execdb.json";
 import design from "../../teamdb/designdb.json";
 import develop from "../../teamdb/developdb.json";
 import marketing from "../../teamdb/marketingdb.json";
-import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../components/Footer2/Footer";
 import "./About.scss";
 
 function About() {
   return (
     <div className="aboutPage">
-      <ScrollToTopOnMount />
       <BannerImage
         name="hero"
-        banner="AboutBanner"
+        banner="About"
         alt="About Us Page Banner"
         title="ABOUT US"
         desc="We offer NPO's all things creative, pro-bono"

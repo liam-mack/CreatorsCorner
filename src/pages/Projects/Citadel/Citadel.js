@@ -15,7 +15,7 @@ function Citadel() {
       <ScrollToTopOnMount />
       <BannerImage
         name="hero"
-        banner="ProjectsBanner"
+        banner="Projects"
         alt="Creator's Corner Portfolio Banner"
         title="CITADEL CANINE SOCIETY"
         desc="October 2020"
