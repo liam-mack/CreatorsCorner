@@ -17,7 +17,7 @@ $white: #ffffff;
 /* PrimaryComponent Strip Wrapper*/
 .primary__hero-section {
   color: #fff;
-  // padding: 2em 0;
+  padding-bottom: 2em;
   margin-top: 25em;
 }
 
@@ -26,7 +26,7 @@ $white: #ffffff;
 }
 
 .primary__hero-section ~ .primary__hero-section, .gridComponent ~ .primary__hero-section, .eventSection ~ .primary__hero-section {
-  margin-top: -1.8em;
+  margin-top: 0em;
   // margin-top: 0;
 }
 
@@ -243,7 +243,7 @@ img {
 
 /* Staff image styling for PrimaryComponent*/
 .primary__pic-link {
-  max-height: 60px;
+  max-height: 75px;
   display: block;
   margin: 1em auto;
 }
