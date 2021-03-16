@@ -5,7 +5,7 @@ export const homeObjOne= {
     lightTextDescription: false,
     topLine: "WHAT WE DO",
     // headline: "Our Mission and Philosophy",
-    img: ["/images/homeServices.png", "/images/homeOpportunities.png", "/images/homeGrowth.png"],
+    img: ["/images/homeServices.png", "/images/homeOpportunities2.png", "/images/homeGrowth2.png"],
     alt: ["Friendly business handshake", "Unlocking student opportunities", "Facilitating peer interaction"],
     title: ["Services for Non Profits", "Opportunities for Students", "Student Growth"],
     subtitle: ["We provide Non Profits with a wide range of work; design, marketing plans, tech, and more - completely pro bono.", "Our club provides students with real-world experiences and opportunities to further develop their skills and education", "We enhance student growth through; our projects, client interactions, workshops/guest speakers, and team environment."],
@@ -34,7 +34,7 @@ export const homeObjThree= {
     title: ["Client Application","Student Application",],
     body: ["Are you a Non Profit Organization? Do you require any assistance? Please complete the below form and we'll get back to you ASAP!", "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!"],
     buttonLabel: "Apply Now",
-    buttonLink: "/About",
+    buttonLink: "/Apply",
     buttonColour: "pinkBtn",
 }
 

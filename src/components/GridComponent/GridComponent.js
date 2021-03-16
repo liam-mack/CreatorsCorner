@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "../Button/Button";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./GridComponent.scss";
+import { HashLink } from "react-router-hash-link";
 
 function GridComponent({
   rows,
@@ -55,11 +56,11 @@ function GridComponent({
                           {buttonLabel}
                         </a>
                       ) : (
-                        <Link to={buttonLinks[firstRow + 1]}>
+                        <HashLink smooth to={`${buttonLinks[firstRow + 1]}#top`}>
                           <Button buttonColour={buttonColour}>
                             {buttonLabel}
                           </Button>
-                        </Link>
+                        </HashLink>
                       )}
                     </div>
                   )}
@@ -87,11 +88,11 @@ function GridComponent({
                           {buttonLabel}
                         </a>
                       ) : (
-                        <Link to={buttonLinks[firstRow + 1]}>
+                        <HashLink smooth to={`${buttonLinks[firstRow + 1]}#top`}>
                           <Button buttonColour={buttonColour}>
                             {buttonLabel}
                           </Button>
-                        </Link>
+                        </HashLink>
                       )}
                     </div>
                   )}
@@ -102,9 +103,9 @@ function GridComponent({
         })}
         {buttonLink && (
           <div className="buttonWrapper">
-            <Link to={buttonLink}>
+            <HashLink smooth to={`${buttonLink}#top`}>
               <Button buttonColour={buttonColour}>{buttonLabel}</Button>
-            </Link>
+            </HashLink>
           </div>
         )}
       </div>

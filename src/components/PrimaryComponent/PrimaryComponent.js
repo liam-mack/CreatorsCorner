@@ -3,6 +3,7 @@ import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
 import "./PrimaryComponent.scss";
+import { HashLink } from "react-router-hash-link";
 
 Modal.setAppElement("#root");
 
@@ -249,9 +250,9 @@ function PrimaryComponent({
           )}
           {buttonLink && (
             <div className="buttonWrapper">
-              <Link to={buttonLink}>
+              <HashLink smooth to={`${buttonLink}#top`}>
                 <Button buttonColour={buttonColour}>{buttonLabel}</Button>
-              </Link>
+              </HashLink>
             </div>
           )}
         </div>

@@ -17,7 +17,7 @@ $white: #ffffff;
 /* PrimaryComponent Strip Wrapper*/
 .primary__hero-section {
   color: #fff;
-  padding: 2em 0;
+  // padding: 2em 0;
   margin-top: 25em;
 }
 
@@ -26,7 +26,7 @@ $white: #ffffff;
 }
 
 .primary__hero-section ~ .primary__hero-section, .gridComponent ~ .primary__hero-section, .eventSection ~ .primary__hero-section {
-  margin-top: -2.1em;
+  margin-top: -1.8em;
   // margin-top: 0;
 }
 
@@ -87,7 +87,7 @@ $white: #ffffff;
 .top-line {
   display: block;
   font-size: 36px;
-  padding-top: 1.5em;
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -211,7 +211,6 @@ li p {
   /* Styling for non-staff multi-picture in PrimaryComponent */
   .primary__pic-img {
     max-width: 90%;
-    max-height: 200px;
     border-radius: 18px;
     margin-top: 1em !important;
     display: block;

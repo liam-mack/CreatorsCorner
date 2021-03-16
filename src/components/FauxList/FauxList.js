@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { Button } from "../Button/Button";
 import "./FauxList.scss";
 
@@ -47,9 +48,9 @@ function FauxList({
           {buttonLink && (
             <div className="buttonWrapper">
               <p className="contactPrompt">Want to learn more?</p>
-              <Link to={buttonLink}>
+              <HashLink to={`${buttonLink}#top`}>
                 <Button buttonColour={buttonColour}>{buttonLabel}</Button>
-              </Link>
+              </HashLink>
             </div>
           )}
         </div>

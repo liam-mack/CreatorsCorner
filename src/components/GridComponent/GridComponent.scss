@@ -1,6 +1,6 @@
 .gridComponent{
     padding-bottom: 2em;
-    margin-top: -2.1em;
+    margin-top: -1.5em;
 }
 
 .gridContainer {
@@ -15,6 +15,7 @@
     // flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .gridColumn{
@@ -53,7 +54,7 @@
 @media screen and (min-width: 768px) {
     .gridRow{
         flex-direction: row;
-        justify-content: space-evenly;
+        // justify-content: space-evenly;
     }
 }
 
