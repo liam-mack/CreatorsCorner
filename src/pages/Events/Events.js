@@ -8,7 +8,7 @@ import StaffDirectory from "../../components/StaffDirectory/StaffDirectory";
 import speakers from "../../speakerdb/speakerdb.json";
 import { eventsObjOne } from "./EventsData.js";
 import BannerImage from "../../components/BannerImage/BannerImage";
-import "./Events.css";
+import "./Events.scss";
 
 Modal.setAppElement("#root");
 
@@ -36,7 +36,7 @@ function About() {
       <div className="container">
         <h1 className="newsTitle">Page 3</h1>
       </div>
-      <div className="container eventSection" id="upcoming">
+      <div className="portfolioContainer eventSection" id="upcoming">
         <h1 className="eventSection-header">UPCOMING EVENTS</h1>
         <div className="upcomingWrapper">
           <UpcomingEvent day="16" title="Team Meeting"/>
