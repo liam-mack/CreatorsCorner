@@ -10,7 +10,7 @@ function PortfolioIntro({
 }) {
   return (
     <div className="portfolioIntro">
-      <div className="container">
+      <div className="portfolioContainer">
         <h2 className="portfolioDate">{date}</h2>
         <div className="introRow">
           <div className="introServices" data-aos="fade-right" data-aos-duration="1000">

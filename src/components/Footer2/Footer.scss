@@ -89,6 +89,10 @@ $white: #ffffff;
 
 // Footer Socials (First Column)
 
+.socials{
+  margin: auto;
+}
+
 .footer-row {
   display: flex;
   width: 160px;
@@ -135,6 +139,9 @@ $white: #ffffff;
   .footer-link-wrapper:nth-child(1) {
     min-width: 100%;
   }
+  .socials{
+    width: 50%;
+  }
   .footer-link-wrapper {
     flex-direction: column;
     width: 50%;
@@ -158,3 +165,9 @@ $white: #ffffff;
 }
 
 }
+
+// @media screen and (min-width: 800px) {
+//   .footer-link-items{
+//     text-align: left;
+//   }
+// }
