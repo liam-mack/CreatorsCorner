@@ -68,7 +68,7 @@ export const homeObjThree= {
       "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!",
     ],
     buttonLabel: "Apply Here",
-    buttonLinks: ["https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link", "https://docs.google.com/forms/d/1AQvypdhHlwEykFlYQW-t2BMMfYV5ZAVrE5svCR2DQr4/"],
+    buttonLinks: ["https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSe_yaJA3kVgX21Q4KHDNTk9cEStR0lzqVHiK7s70Ae9L4AeMA/viewform"],
     buttonColour: "pinkBtn",
     externalLink: true,
 }
