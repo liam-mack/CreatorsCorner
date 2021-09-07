@@ -1,7 +1,7 @@
 export const contactObjOne= {
     sectionId: "follow",
     lightText: false, 
-    topLine: "Or Follow our Mission Here",
+    topLine: "OR FOLLOW OUR MISSION HERE",
     img: ["/images/contactIG.png", "/images/contactFB.png", "/images/contactLinkedIn.png", ],
     alt: ["Instagram", "Facebook", "linkedIn"],
     isLink: true,

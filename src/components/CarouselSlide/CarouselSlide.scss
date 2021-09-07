@@ -13,14 +13,18 @@
 }
 
 .slideText {
-  display: flex;
+  text-align: left;
+  // display: flex;
   width: 50%;
   margin: auto 0 auto 0;
-  // font-family: "Montserrat";
-  font-style: italic;
+  // font-style: italic;
   font-size: 1.3em;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.slideBody{
+  line-height: 140%;
 }
 
 .slideImg {

@@ -1,123 +1,126 @@
-$navy: #2A3240;
-$pink: #D97D6C;
-
-
+$navy: #2b323f;
+$pink: #d97d6c;
+$white: #ffffff;
 
 :root {
-    --primary: #ffffff
+  --primary: #ffffff;
 }
 
 .btn {
-    font-family: "AvenirBook";
-    margin: 1em 0 1em 0;
-    padding: 15px 35px;
-    border-radius: 6px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    font-weight: 900;
-    font-size: 18px;
-    &:hover{
-        box-shadow: 0 0 11px rgba(33,33,33,.2); 
-    }
+  font-family: "AvenirBook";
+  margin: 1em 0 1em 0;
+  padding: 15px 35px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 900;
+  font-size: 18px;
+  &:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
 }
 %btn-basic {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    font-family: "AvenirBook";
-    margin: 1em 0 1em 0;
-    padding: 15px 35px;
-    border-radius: 6px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    font-weight: 900;
-    font-size: 18px;
-    &:hover{
-        box-shadow: 0 0 11px rgba(33,33,33,.2); 
-    }
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: "AvenirBook";
+  margin: 1em 0 1em 0;
+  padding: 15px 55px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 900;
+  font-size: 18px;
+  &:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
 }
 
 .btn--outline {
-    background-color: transparent;
-    color: #ffffff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: $white;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
 }
 
 .btn-medium {
-    padding: 8px 20px;
-    font-size: 18px
+  padding: 8px 20px;
+  font-size: 18px;
 }
 
 .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
+  padding: 12px 26px;
+  font-size: 20px;
 }
 
-.btn--mobile{
-    text-align: center;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 24px;
-    background-color: transparent;
-    color: #ffffff;
-    padding: 14px 20px;
-    border: 1px solid #ffffff;
-    transition:  all 0.3s ease-out;
+.btn--mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: transparent;
+  color: $white;
+  padding: 14px 20px;
+  border: 1px solid $white;
+  transition: all 0.3s ease-out;
 }
 
 .btn--wide {
-    padding: 12px 64px;
-    font-size: 20px;
+  padding: 12px 64px;
+  font-size: 20px;
 }
 
-.btn--large:hover, .btn--medium:hover, .btn--mobile:hover{
-    transition: all 0.3s ease-out;
-    background: #ffffff;
-    color: #242424; 
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: $white;
+  color: #242424;
 }
-
 
 .pinkBtn {
-    @extend %btn-basic;
-    background-color: #ffffff !important;
-    color: $pink !important;
+  @extend %btn-basic;
+  background-color: $white !important;
+  color: $pink !important;
+  border: 2px solid $pink !important;
+//   margin-bottom: 2em !important;
+  text-decoration: none;
+  &:hover {
+    color: $white !important;
     border: 2px solid $pink !important;
-    margin-bottom: 2em !important;
-    text-decoration: none;
-    &:hover{
-        color: #ffffff !important;
-        border: 2px solid $pink !important;
-        background-color: $pink !important;
-    }
+    background-color: $pink !important;
+  }
 }
 
 button a {
-    width: 150px
+  width: 150px;
 }
 
 .navyBtn {
-    background-color: $navy;
-    color: #ffffff;
-    border-radius: 54px;
-    padding: 1em 2em;
-    font-size: 23px;
-    font-family: "SourceCodePro"
-    // width: 250px
+  @extend %btn-basic;
+  background-color: $navy !important;
+  color: $white !important;
+  border: 2px solid $white !important;
+  text-decoration: none;
+  &:hover {
+    color: $navy !important;
+    border: 2px solid $white !important;
+    background-color: $white !important;
+  }
 }
 
 .calendarBtn {
-    margin: 5em auto 7em auto !important;
-    background-color: #C4C4C4;
-    color: #ffffff;
-    border: 1px solid transparent;
-    &:hover{
-        border: 1px solid #c4c4c4 ;
-    }
+  margin: 5em auto 7em auto !important;
+  background-color: #c4c4c4;
+  color: $white;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid #c4c4c4;
+  }
 }

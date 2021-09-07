@@ -7,6 +7,10 @@ import Citadel from "./pages/Projects/Citadel/Citadel";
 import Rainbow from "./pages/Projects/Rainbow/Rainbow";
 import OCH from "./pages/Projects/OCH/OCH";
 import OCRCC from "./pages/Projects/OCRCC/OCRCC";
+import Interval from "./pages/Projects/Interval/Interval";
+import CTSACT from "./pages/Projects/CTSACT/CTSACT";
+import FoE from "./pages/Projects/FoE/FoE";
+import ARC from "./pages/Projects/ARC/ARC";
 import Events from "./pages/Events/Events";
 import Apply from "./pages/Apply/Apply";
 import Contact from "./pages/Contact/Contact";
@@ -38,6 +42,10 @@ function App() {
         <Route exact path="/Projects-Rainbow" component={Rainbow} />
         <Route exact path="/Projects-OCH" component={OCH} />
         <Route exact path="/Projects-OCRCC" component={OCRCC} />
+        <Route exact path="/Projects-Interval" component={Interval} />
+        <Route exact path="/Projects-CTSACT" component={CTSACT} />
+        <Route exact path="/Projects-FOE" component={FoE} />
+        <Route exact path="/Projects-ARC" component={ARC} />
       </div>
     </Router>
   );

@@ -1,0 +1,24 @@
+.servicesHome{
+    background-color: #CBD5D6;
+    padding: 5em;
+    h1{
+        text-align: center;
+    }
+    li{
+        padding: 0.25em 0;
+    }
+}
+.servicesRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicesIcon{
+    max-width: 7em;
+    display: flex;
+    object-fit: contain;
+}
+
+.serviceBodyWrapper{
+    display: flex;
+}

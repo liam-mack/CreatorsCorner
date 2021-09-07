@@ -23,6 +23,7 @@ function Carousel() {
           <div
             key={index}
             className="slide"
+            id={`slide${index}`}
             style={{ transform: `translateX(${x}%)` }}
           >
             {item}

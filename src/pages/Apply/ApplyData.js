@@ -9,19 +9,21 @@ export const applyObjOne = {
     "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!",
   ],
   buttonLabel: "Apply Here",
-  buttonLinks: ["https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link", "https://docs.google.com/forms/d/1AQvypdhHlwEykFlYQW-t2BMMfYV5ZAVrE5svCR2DQr4/"],
+  buttonLinks: [
+    "https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link",
+    "https://docs.google.com/forms/d/1AQvypdhHlwEykFlYQW-t2BMMfYV5ZAVrE5svCR2DQr4/",
+  ],
   buttonColour: "pinkBtn",
   externalLink: true,
 };
 
 export const applyObjTwo = {
   sectionId: "FAQ",
-  bgColour: "teal",
+  bgColour: "cyan",
   lightText: false,
   lightTextDescription: false,
   headline: "Client Frequently Asked Questions",
-  body:
-    "No! We are a completely pro-bono service. Our mission is to help great causes and important organizations the best way we know how.",
+  body: "No! We are a completely pro-bono service. Our mission is to help great causes and important organizations the best way we know how.",
   body2:
     "Our goal is to assist our clients wherever they need it most. Although we specialize in design, marketing, and development, we can work on a range of projects and specialties with our client, catering our services to their needs!",
   body3:
@@ -41,8 +43,7 @@ export const applyObjThree = {
   lightText: true,
   lightTextDescription: true,
   headline: "Member Frequently Asked Questions",
-  body:
-    "Being a part of this club is a little bit different than other school clubs. We work professionally with clients, and as a result we expect professionalism and high-quality work. Being on a team of this caliber is an incredible experience, one that can help you learn about working in the real world, and enhance your skills.",
+  body: "Being a part of this club is a little bit different than other school clubs. We work professionally with clients, and as a result we expect professionalism and high-quality work. Being on a team of this caliber is an incredible experience, one that can help you learn about working in the real world, and enhance your skills.",
   body2:
     "Our executive team has worked hard in creating a structure and organization that is most efficient for our members and clients. Our members work in both small teams and individually, to enhance their training and allow for flexibility. We have weekly team meetings to talk about the work, ask questions, and get advice. In these meetings you'll learn about any new clients, divide project work amongst your team, and learn about the timeline you'll need to follow. Our meetings are the same day of the week, at the same time, to allow for students the proper chance to time manage.",
   body3:
@@ -64,8 +65,7 @@ export const applyObjFour = {
   lightText: false,
   lightTextDescription: false,
   headline: "What does it take to be on this team?",
-  body:
-    "We rely on all of our members to help push our projects through. As a result we ask for your full commitment when you sign up as our teams and client intakes could change drastically on our team size and capabilities.",
+  body: "We rely on all of our members to help push our projects through. As a result we ask for your full commitment when you sign up as our teams and client intakes could change drastically on our team size and capabilities.",
   body2:
     "As a team, especially a virtual and remote team, we work as one. We hope that all of our members will value teamwork and work together to work through our tasks, we applaud those who teach, and those who ask for help.",
   body3:
@@ -77,4 +77,18 @@ export const applyObjFour = {
   buttonLink: "/Contact",
   buttonColour: "pinkBtn",
   footer: "Want to learn more?",
+};
+
+export const applyObjFive = {
+  sectionId: "openCharter",
+  lightText: true,
+  lightTextDescription: true,
+  bgColour: "navy",
+  topLine: "OPEN A CHARTER AT YOUR SCHOOL",
+  body: [
+    "Are you passionate about our mission? Are you interested in opening a Creator's Corner chapter at your school? We believe we can have an even bigger impact if we work together across the nation. Get in touch with our founder to get started!",
+  ],
+  buttonLabel: "Contact",
+  buttonLink: "/Contact",
+  buttonColour: "navyBtn",
 };

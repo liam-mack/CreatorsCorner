@@ -72,15 +72,15 @@ export const aboutObjSeven= {
 
 export const aboutObjEight= { 
     sectionId: "letter",
-    bgColour: "teal",
-    lightText: false,
-    lightTextDescription: false,
+    bgColour: "navy",
+    lightText: true,
+    lightTextDescription: true,
     // headline: "Parents & Guardians",
-    headers: ["A LETTER FROM OUR FOUNDER"],
-    body: "Over the summer of COVID-19 prior to my graduating year, I found myself getting more involved within my community. Non-Profit Organizations (NPOs) are made up of many people with varying backgrounds and face a range of challenges. Here, I discovered that oftentimes the most overlooked and intimidating tasks were centered around design and marketing. I quickly realized I had the opportunity to bring two things I am passionate about together; design and social change, to create something bigger than myself. What started as a midnight afterthought quickly evolved into Creator's Corner.",
-    body2: "What I had envisioned for CC was the ability to help struggling NPO's while simultaneously providing students with opportunities to grow. Where organizations often lack the resources to invest in design, branding, websites, etc., we're able to provide this at a desirable cost... free! Students are always looking to enhance their skills and gain real experience before they go off into the world. What better way to provide them the opportunity to grow while volunteering with organizations. Working with clients, hitting deadlines, and operating in cross-functional teams is a great way for students to develop their soft skills while honing in on their craft.",
-    body3: "I believe this club has the power to change our world, and that's exactly what we're doing. One organization at a time.",
-    signature: "Yasmin Mehdi October 2020"
+    topLine: "A LETTER FROM OUR FOUNDER",
+    singleImg: true,
+    img: ["/images/founderLetter.png"],
+    imgLinks: ["https://www.linkedin.com/in/yasminmehdi/"],
+    alt: ["A Letter from Yasmin Mehdi - Founder"]
 }
 
 

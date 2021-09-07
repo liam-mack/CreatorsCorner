@@ -19,10 +19,23 @@ $peach: #D97D6C;
     height: 80%;
     transition: 0.5s;
     overflow: hidden;
-    background-color: $peach;
     text-align: center;
-    color: #ffffff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.02);
+}
+
+#slide0 {
+    background-color: $peach;
+    color: #ffffff;
+}
+
+#slide1 {
+    background-color: #DFD8D5;
+    color: #000000;
+}
+
+#slide2 {
+    background-color: #CBD5D6;
+    color: #000000;
 }
 
 %btn-styles{

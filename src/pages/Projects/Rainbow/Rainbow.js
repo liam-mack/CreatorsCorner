@@ -5,7 +5,8 @@ import Footer from "../../../components/Footer2/Footer";
 import PortfolioIntro from "../../../components/PortfolioIntro/PortfolioIntro";
 import PortfolioDivider from "../../../components/PortfolioDivider/PortfolioDivider";
 import { Button } from "../../../components/Button/Button";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+// import { Link } from "react-router-dom";
 import { rainbowObj } from "../projectsData";
 
 function Rainbow() {
@@ -16,33 +17,52 @@ function Rainbow() {
         name="hero"
         banner="Projects"
         alt="Creator's Corner Portfolio Banner"
-        title="CITADEL CANINE SOCIETY"
-        desc="October 2020"
+        title="RAINBOW KIDSCHOOL"
+        desc="November 2020"
       />
       <PortfolioIntro {...rainbowObj} />
-      <PortfolioDivider text="PROJECT 1: WEB DESIGN" bgColour="#EF5E63" />
+      <PortfolioDivider
+        text="PROJECT 1: GRAPHIC DESIGN & SOCIAL MEDIA TEMPLATES"
+        bgColour="#EF5E63"
+      />
+
       <div className="portfolioContainer">
-        <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSite.png" data-aos="fade-left" data-aos-duration="1000"/>
+        <img
+          className="blockGraphic"
+          src="portfolioImages/rainbow/rainbowSM.png"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        />
       </div>
       <PortfolioDivider
-        text="PROJECT 2: SOCIAL MEDIA DESIGN"
+        text="PROJECT 2: WEBSITE DESIGN & CREATION"
         bgColour="#EF5E63"
       />
       <div className="portfolioContainer">
-        <img className="blockGraphic" src="portfolioImages/rainbow/rainbowSM.png" data-aos="fade-up" data-aos-duration="1000"/>
+        <img
+          className="blockGraphic"
+          src="portfolioImages/rainbow/rainbowSite.png"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        />
       </div>
+
       <div
         className="buttonWrapper"
         data-aos="flip-left"
         data-aos-duration="1500"
       >
-        <Link to="/Apply">
+        <HashLink to="/Apply#top">
           <Button buttonColour="navyBtn">LET'S WORK TOGETHER</Button>
-        </Link>
+        </HashLink>
         <p className="workTogether">
           Get in touch with our team to see how we can use our skills and
           services to help your organization grow!
         </p>
+      </div>
+      <div className="portfolioSlides">
+        <HashLink>Previous Client</HashLink>
+        <HashLink>Next Client</HashLink>
       </div>
       <Footer />
     </div>

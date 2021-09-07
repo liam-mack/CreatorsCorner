@@ -34,6 +34,14 @@
     justify-content: space-evenly !important;
 }
 
+.aboutPage .primary__hero-body{
+    text-align: left !important;
+}
+
+.aboutPage .pictureSubtitle{
+    text-align: left !important;
+}
+
 .staffDirectoryWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -46,17 +54,8 @@
     }
 }
 
-#aboutLetter {
-    .primary__hero-text-wrapper-paragraph{
-        line-height: 32px;
-        max-width: 900px;
-        padding-top: 2em; 
-        text-align: justify;   
-    }
-
-    strong ~ p {
-        margin-top: 2em;
-    }
+#letter img {
+    max-height: initial;
 }
 
 .aboutStaff{

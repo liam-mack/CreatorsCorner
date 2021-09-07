@@ -1,10 +1,16 @@
-.homePage .primary__hero-body {
-  font-style: italic;
+// .homePage .primary__hero-body {
+//   font-style: italic;
+// }
+
+#services .primary__hero-img-multi{
+  display: flex;
+  img {
+    max-width: 50%;
+  }
 }
 
-#homeServices {
-  .columnTitle {
-    text-align: start;
-    margin-bottom: 0em;
-  }
+
+#follow .col{
+  flex: 0;
+  flex-basis: 40% !important 
 }

@@ -30,29 +30,62 @@ export const homeObjOne= {
 
 export const homeObjTwo= {
     sectionId: "services",
-    bgColour: "teal",
+    bgColour: "cyan",
     lightText: false,
+    lightTextDescription: false,
     topLine: "OUR PRO-BONO SERVICES",
-    rows: [0,2],
-    img: ["/images/iconDesign.png","/images/iconBranding.png","/images/iconTech.png","/images/iconMarketing.png"],
-    alt: ["Design Icon", "Branding Icon", "Technology Icon", "Marketing Icon"],
-    title: ["Design","Branding","Technology","Marketing"],
-    body: ["Graphic design, UI/UX design, merchandise, etc.","Logos, colour palettes, iconography, web design, etc.","Promo videos, app creation, web design & creation, etc.","Social media calendars, fundraising plans, social media content, marketing ideas, etc."],
+    // isBg: true,
+    img: ["/images/iconDesign.png","/images/iconMarketing.png","/images/iconTech.png"],
+    alt: ["Design Icon", "Marketing Icon", "Development Icon"],
+    title: ["Design","Marketing","Development"],
+    subtitle: ["We strive to empower other organizations by offering them our expertise and services", "Our talented team is focused on producing excellent and high quality products", "We produce real-world opportunities to our students to enhance their skills and grow", ""]
+    // subtitle: ["We strive to empower other organizations by offering them our expertise and services", "Our talented team is focused in producing excellent and high quality products", "We produce real-world opportunities to our students to enhance their skills and growth"]
+
+}
+
+export const aboutObjThree= { 
+    sectionId: "values",
+    bgColour: "navy",
+    lightText: true,
+    lightTextDescription: true,
+    topLine: "OUR VALUES",
+    isBg: true,
+    img: ["/images/oneBg.png","/images/twoBg.png","/images/threeBg.png"],
+    alt: ["Value Number One", "Value Number Two", "Value Number Three"],
+    title: ["Empowerment", "Excellence", "Growth"],
+    subtitle: ["We strive to empower other organizations by offering them our expertise and services", "Our talented team is focused in producing excellent and high quality products", "We produce real-world opportunities to our students to enhance their skills and growth"]
+
 }
 
 export const homeObjThree= {
     sectionId: "apply",
     lightText: false,
-    topLine: "APPLY",
+    // topLine: "Apply",
     rows: [0],
-    title: ["Client Application","Student Application",],
-    body: ["Are you a Non Profit Organization? Do you require any assistance? Please complete the below form and we'll get back to you ASAP!", "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!"],
-    buttonLabel: "Apply Now",
-    buttonLink: "/Apply",
+    title: ["Client Application", "Student Application"],
+    body: [
+      "Are you a Non Profit Organization? Do you require any assistance? Please complete the below form and we'll get back to you ASAP!",
+      "Are you a post-secondary student looking to gain more experience? Please apply below and we'll set up a meeting to talk about how you can contribute!",
+    ],
+    buttonLabel: "Apply Here",
+    buttonLinks: ["https://docs.google.com/forms/d/e/1FAIpQLSfnMwCmKsUxY9XCXvDDoR6bg3hCxXyfnzPP1m2qs4pf52dcXg/viewform?usp=sf_link", "https://docs.google.com/forms/d/1AQvypdhHlwEykFlYQW-t2BMMfYV5ZAVrE5svCR2DQr4/"],
     buttonColour: "pinkBtn",
+    externalLink: true,
 }
 
 export const homeObjFour= {
+    sectionId: "openCharter",
+    lightText: true,
+    lightTextDescription: true,
+    bgColour: "navy",
+    topLine: "OPEN A CHARTER AT YOUR SCHOOL",
+    body: ["Are you passionate about our mission? Are you interested in opening a Creator's Corner chapter at your school? We believe we can have an even bigger impact if we work together across the nation. Get in touch with our founder to get started!"],
+    buttonLabel: "Contact",
+    buttonLink: "/Contact",
+    buttonColour: "navyBtn",
+}
+
+export const homeObjFive= {
     sectionId: "follow",
     lightText: true, 
     bgColour: "peach",

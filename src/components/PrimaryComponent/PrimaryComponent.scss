@@ -6,8 +6,8 @@ $lime: #e0e98f;
 $pink: rgba(237, 28, 36, 0.65);
 $grey: #c4c4c4;
 
-$navy: #2A3240;
-$teal: #C9D5D6;
+$navy: #2B323F;
+$cyan: #CBD5D6;
 $peach: #D97D6C;
 $grey: #DFD8D5;
 $black: #000000;
@@ -17,7 +17,7 @@ $white: #ffffff;
 /* PrimaryComponent Strip Wrapper*/
 .primary__hero-section {
   color: #fff;
-  padding-bottom: 2em;
+  padding: 5em 0;
   margin-top: 25em;
 }
 
@@ -72,7 +72,7 @@ $white: #ffffff;
 
 /* PrimaryComponent Header - changed by props (Default: white) */
 .heading {
-//   margin-bottom: 2em;
+  margin-bottom: 1.75em;
   font-size: 36px;
   line-height: 1.1;
   font-weight: 600;
@@ -87,7 +87,8 @@ $white: #ffffff;
 .top-line {
   display: block;
   font-size: 36px;
-  padding-top: 1em;
+  // padding-top: 1em;
+  margin-top: 0em;
   text-align: center;
 }
 
@@ -96,7 +97,7 @@ $white: #ffffff;
   font-size: 16px;
   line-height: 28px;
   margin: 0 0 1em 0;
-  text-align: justify;  
+  text-align: left;  
 }
 
 /* Conditional bold styling based on props*/
@@ -120,8 +121,8 @@ $white: #ffffff;
 .navy {
   background-color: $navy;
 }
-.teal {
-  background-color: $teal;
+.cyan {
+  background-color: $cyan;
 }
 .peach {
   background-color: $peach;
@@ -262,8 +263,8 @@ img {
 .pictureSubtitle {
   margin-bottom: 1em;
   line-height: 28px;
-  text-align: justify;
-  max-width: 70%;
+  text-align: center;
+  max-width: 80%;
   margin: auto;
 }
 

@@ -6,32 +6,27 @@ import PortfolioIntro from "../../../components/PortfolioIntro/PortfolioIntro";
 import PortfolioDivider from "../../../components/PortfolioDivider/PortfolioDivider";
 import { Button } from "../../../components/Button/Button";
 import { Link } from "react-router-dom";
-import { ocrccObj } from "../projectsData";
+import { foeObj } from "../projectsData";
 
-function OCRCC() {
+function FoE() {
   return (
-    <div className="ocrccPage">
+    <div className="intervalPage">
       <ScrollToTopOnMount />
       <BannerImage
         name="hero"
         banner="Projects"
         alt="Creator's Corner Portfolio Banner"
-        title="ONTARIO COALITION OF RAPE CRISIS CENTRES"
+        title="Friends of the Earth"
         desc="January 2021"
       />
-      <PortfolioIntro {...ocrccObj} />
+      <PortfolioIntro {...foeObj} />
+      <PortfolioDivider text="PROJECT 1: LOGO DESIGN" bgColour="#2EC4E9" />
+     
       <PortfolioDivider
-        text="PROJECT: SOCIAL MEDIA TEMPLATES"
-        bgColour="#87398B"
+        text="PROJECT 2: GRAPHIC DESIGN - BANNER & FLYERS"
+        bgColour="#2EC4E9"
       />
-      <div className="portfolioContainer">
-        <img
-          className="blockGraphic"
-          src="portfolioImages/ocrcc/ocrccTemplates.png"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        />
-      </div>
+     
       <div
         className="buttonWrapper"
         data-aos="flip-left"
@@ -50,4 +45,4 @@ function OCRCC() {
   );
 }
 
-export default OCRCC;
+export default FoE;
