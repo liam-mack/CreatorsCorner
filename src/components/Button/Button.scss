@@ -98,6 +98,20 @@ $white: #ffffff;
   }
 }
 
+.peachBtn {
+  @extend %btn-basic;
+  background-color: $pink !important;
+  color: $white !important;
+  border: 2px solid $white !important;
+//   margin-bottom: 2em !important;
+  text-decoration: none;
+  &:hover {
+    color: $pink !important;
+    border: 2px solid $white !important;
+    background-color: $white !important;
+  }
+}
+
 button a {
   width: 150px;
 }

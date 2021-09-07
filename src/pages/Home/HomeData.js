@@ -45,12 +45,12 @@ export const homeObjTwo= {
 
 export const aboutObjThree= { 
     sectionId: "values",
-    bgColour: "navy",
-    lightText: true,
-    lightTextDescription: true,
+    bgColour: "cyan",
+    lightText: false,
+    lightTextDescription: false,
     topLine: "OUR VALUES",
     isBg: true,
-    img: ["/images/oneBg.png","/images/twoBg.png","/images/threeBg.png"],
+    img: ["/images/iconDesign.png","/images/twoBg.png","/images/threeBg.png"],
     alt: ["Value Number One", "Value Number Two", "Value Number Three"],
     title: ["Empowerment", "Excellence", "Growth"],
     subtitle: ["We strive to empower other organizations by offering them our expertise and services", "Our talented team is focused in producing excellent and high quality products", "We produce real-world opportunities to our students to enhance their skills and growth"]

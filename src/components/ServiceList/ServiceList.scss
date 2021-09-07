@@ -11,6 +11,11 @@
 .servicesRow{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.serviceBox{
+    min-width: 375px;
 }
 
 .servicesIcon{

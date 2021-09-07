@@ -1,46 +1,34 @@
 [
     {
       "id": 1,
-      "name": "Leah Coyne",
+      "name": "Parmjit Lamba",
       "position": "Director of Marketing",
-      "image": "/teamimages/LeahCoyne.png",
-      "link": "https://www.linkedin.com/in/leahcoyne/",
+      "image": "/teamimages/ParmjitLamba.png",
+      "link": "https://www.linkedin.com/in/parmjit-lamba-676b101a3",
       "linkedIn": true
     },
     {
       "id": 2,
-      "name": "Breanna Stephney",
-      "image": "/teamimages/BreannaStephney.png",
-      "link": "https://www.linkedin.com/in/breannastephney/",
-      "linkedIn": true
-    },
-    {
-      "id": 3,
-      "name": "Carly Clapp",
-      "image": "/teamimages/CarlyClapp.png",
-      "link": "https://www.linkedin.com/in/carlyclapp/",
-      "linkedIn": true
-    },
-    {
-      "id": 4,
-      "name": "Kathryn Jajo-Yacoub",
-      "image": "/teamimages/KathrynJajo.png",
-      "link": "www.linkedin.com/in/kathryn-jajo-yacoub-78b351203",
-      "linkedIn": true
-    },
-    {
-      "id": 5,
       "name": "Simone Foster",
+      "position": "Project Lead",
       "image": "/teamimages/simoneFoster.jpg",
       "link": "https://www.linkedin.com/in/simone-foster-2a70a1164/",
       "linkedIn": true
     },
     {
-        "id": 6,
-        "name": "Parmjit Lamba",
-        "image": "/teamimages/ParmjitLamba.png",
-        "link": "https://www.linkedin.com/in/parmjit-lamba-676b101a3",
-        "linkedIn": true
+      "id": 3,
+      "name": "Kathryn Jajo-Yacoub",
+      "position": "Project Lead",
+      "image": "/teamimages/KathrynJajo.png",
+      "link": "www.linkedin.com/in/kathryn-jajo-yacoub-78b351203",
+      "linkedIn": true
+    },
+    {
+      "id": 4,
+      "name": "Carly Clapp",
+      "image": "/teamimages/CarlyClapp.png",
+      "link": "https://www.linkedin.com/in/carlyclapp/",
+      "linkedIn": true
     }
   ]
   

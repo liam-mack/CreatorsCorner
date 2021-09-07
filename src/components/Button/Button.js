@@ -5,7 +5,7 @@ const STYLES = ["btn--primary", "btn--outline"];
 
 const SIZES = ["btn--medium", "btn--large", "btn--mobile", "btn--wide"];
 
-const COLOUR = ["primary","pinkBtn", "navyBtn", "calendarBtn", "submitBtn"];
+const COLOUR = ["primary","pinkBtn", "navyBtn", "calendarBtn", "submitBtn", "peachBtn"];
 
 // Fix: buttonLocation
 export const Button = ({

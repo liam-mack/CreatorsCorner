@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 import Modal from "react-modal";
 import { Button } from "../../components/Button/Button";
 import Footer from "../../components/Footer2/Footer";
@@ -6,7 +7,7 @@ import UpcomingEvent from "../../components/UpcomingEvent/UpcomingEvent";
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import StaffDirectory from "../../components/StaffDirectory/StaffDirectory";
 import speakers from "../../speakerdb/speakerdb.json";
-import { eventsObjOne } from "./EventsData.js";
+import { eventsObjOne, eventsObjTwo } from "./EventsData.js";
 import BannerImage from "../../components/BannerImage/BannerImage";
 import "./Events.scss";
 
@@ -39,9 +40,9 @@ function About() {
       <div className="portfolioContainer eventSection" id="upcoming">
         <h1 className="eventSection-header">UPCOMING EVENTS</h1>
         <div className="upcomingWrapper">
-          <UpcomingEvent day="16" title="Team Meeting"/>
+          {/* <UpcomingEvent day="16" title="Team Meeting"/>
           <UpcomingEvent day="23" title="Team Meeting"/>
-          <UpcomingEvent day="23" title="Jay Andrews/Creator's Corner"/>
+          <UpcomingEvent day="23" title="Jay Andrews/Creator's Corner"/> */}
         </div>
         <Button
           buttonColour="calendarBtn"
@@ -67,6 +68,7 @@ function About() {
               height="600"
               frameborder="0"
               scrolling="no"
+              title="Calendar"
             ></iframe>{" "}
           </div>
         </Modal>
@@ -74,7 +76,20 @@ function About() {
       <PrimaryComponent {...eventsObjOne}/>
       <div className="staffDirectoryWrapper peach">
         <StaffDirectory staff={speakers} />
+        <div
+        className="buttonWrapper"
+        data-aos="flip-left"
+        data-aos-duration="1500"
+      >
+        <p className="workTogether">
+          Interested in running an event with our club?
+        </p>
+        <HashLink to="/Contact#top">
+          <Button buttonColour="peachBtn">Contact Us</Button>
+        </HashLink>
       </div>
+      </div>
+        {/* <PrimaryComponent {...eventsObjTwo} /> */}
       <Footer />
     </div>
   );

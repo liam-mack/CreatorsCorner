@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Yasmin Mehdi",
-    "position": "Creative Director & President",
-    "image": "/teamimages/YasminMehdi.png",
-    "link": "https://www.linkedin.com/in/yasminmehdi/",
+    "name": "Cora Vasut",
+    "position": "President",
+    "image": "/teamimages/CoraVasut.png",
+    "link": "https://www.linkedin.com/in/coravasut/",
     "linkedIn": true
   },
   {
     "id": 2,
     "name": "Blal Idrees",
-    "position": "VP Internal",
+    "position": "VPI",
     "image": "/teamimages/BlalIdrees.png",
     "link": "https://www.linkedin.com/in/blal-idrees-aa07201a5/",
     "linkedIn": true
@@ -18,17 +18,15 @@
   },
   {
     "id": 3,
-    "name": "Brandon Long",
-    "position": "VP External",
-    "image": "/teamimages/BrandonLong.png",
-    "link": "https://www.linkedin.com/in/brandonlong97/",
-    "linkedIn": true
+    "name": "Vacancy",
+    "position": "VPE",
+    "image": "/teamimages/emptyProfile.png"
 
   },
   {
     "id": 4,
     "name": "Samira Mehdi",
-    "position": "VP Operations",
+    "position": "VPO",
     "image": "/teamimages/SamiraMehdi.png",
     "link": "https://www.linkedin.com/in/samira-mehdi-32ba661a3",
     "linkedIn": true

@@ -1,68 +1,28 @@
 [
     {
       "id": 1,
-      "name": "Maxine Arbez Cheung",
-      "position": "Director of Design",
-      "image": "/teamimages/MaxineArbez.png",
-      "link": "https://www.designbymax.xyz/"
-    },
-    {
-      "id": 2,
-      "name": "Jaclyn Jamieson",
-     "image": "/teamimages/JaclynJamieson.png",
-     "link": "https://www.linkedin.com/in/jaclyn-jamieson-7b75b1154/",
-     "linkedIn": true
-    },
-    {
-      "id": 3,
-      "name": "Eileen Kennedy-McDonald",
-     "image": "/teamimages/EileenKennedy.png",
-     "link": "https://www.eileenkm.com"
-    },
-    {
-      "id": 4,
       "name": "Shiva Moin",
+      "position": "Design Director",
       "image": "/teamimages/ShivaMoin.png",
       "link": "https://www.linkedin.com/in/shivamoin/",
       "linkedIn": true
     },
     {
-      "id": 5,
-      "name": "Senafa Noudehou",
-      "image": "/teamimages/SenafaNoudehou.png",
-      "link": "https://senafa.myportfolio.com/"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "name": "Venus Chau",
+      "position": "Project Lead",
       "image": "/teamimages/venusChau.jpeg"
     },
     {
-      "id": 7,
+      "id": 3,
       "name": "Siobhan Skene",
+      "position": "Project Lead",
       "image": "/teamimages/SiobhanSkene.png"
     },
     {
-      "id": 8,
-      "name": "Farah Elabd",
-      "image": "/teamimages/FarahElabd.png"
-    },
-    {
-      "id": 9,
-      "name": "Nicole Ermuth",
-      "image": "/teamimages/NicoleErmuth.png"
-    },
-    {
-      "id": 10,
+      "id": 4,
       "name": "Mary Nehmé",
       "image": "/teamimages/maryNehme.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Cora Vasut",
-      "image": "/teamimages/CoraVasut.png",
-      "link": "https://www.linkedin.com/in/coravasut/",
-      "linkedIn": true
     }
   ]
   

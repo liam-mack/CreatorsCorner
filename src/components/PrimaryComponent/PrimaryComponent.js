@@ -76,7 +76,7 @@ function PrimaryComponent({
                           : "primary__hero-img-multi"
                       }
                       data-aos="flip-down"
-                      data-aos-duration="1000"
+                      data-aos-duration="1500"
                       key={idx}
                     >
                       {imgLinks ? (

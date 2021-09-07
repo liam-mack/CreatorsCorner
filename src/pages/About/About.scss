@@ -1,123 +1,125 @@
 .aboutPage .subHeading {
-    font-family: "SourceCodePro";
+  font-family: "SourceCodePro";
 }
 
 .aboutPage .navy {
-    .top-line{
-        margin-top: 0em;
-    }
+  .top-line {
+    margin-top: 0em;
+  }
 }
 
 #aboutValues {
-    .primary__hero-img-multi{
-        min-height: 200px;
-        // left: 0;
-    }
-    .pictureHeading{
-        // text-align: left;
-        font-family: "SourceCodePro";
-        font-size: 30px;
-        position: relative;
-        // left: 60px;
-        left: -30px
-    }
+  .primary__hero-img-multi {
+    min-height: 200px;
+    // left: 0;
+  }
+  .pictureHeading {
+    // text-align: left;
+    font-family: "SourceCodePro";
+    font-size: 30px;
+    position: relative;
+    // left: 60px;
+    left: -30px;
+  }
 
-    .pictureSubtitle{
-        max-width: 80%;
-        line-height: 32px;
-        position: relative;
-        top: -15px;
-    }
+  .pictureSubtitle {
+    max-width: 80%;
+    line-height: 32px;
+    position: relative;
+    top: -15px;
+  }
 }
 
-.aboutPage #aboutValues .col{
-    justify-content: space-evenly !important;
+.aboutPage #aboutValues .col {
+  justify-content: space-evenly !important;
 }
 
-.aboutPage .primary__hero-body{
-    text-align: left !important;
+.aboutPage .primary__hero-body {
+  text-align: left !important;
 }
 
-.aboutPage .pictureSubtitle{
-    text-align: left !important;
+.aboutPage .pictureSubtitle {
+  text-align: left !important;
 }
 
 .staffDirectoryWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    h1{
-        margin-top: 1em;
-    }
-    strong{
-        margin-bottom: 1em;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  h1 {
+    margin-top: 1em;
+  }
+  strong {
+    margin-bottom: 1em;
+  }
 }
 
 #letter img {
-    max-height: initial;
+  max-height: initial;
 }
 
-.aboutStaff{
-    text-align: center;
+.aboutStaff {
+  text-align: center;
 }
 
-.applyPage .gridComponent:nth-child(2){
-    margin-top: 30em;
+.applyPage .gridComponent:nth-child(2) {
+  margin-top: 30em;
 }
 
-.staffDirectoryWrapper .primary__hero-section{
-    margin-top: 0;
+.staffDirectoryWrapper .primary__hero-section {
+  margin-top: 0;
 }
 
 .staffDirectoryWrapper .container {
-    max-width: 1300px !important;
+  max-width: 1300px !important;
 }
 
-.signature{
-    max-width: 150px;
-    text-align: start !important;
+.signature {
+  max-width: 150px;
+  text-align: start !important;
 }
 
-.signatureRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.signatureRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.signatureImg{
-    max-width: 50px;
+.signatureImg {
+  max-width: 50px;
 }
 
 @media screen and (max-width: 784px) {
-    .navy .primary__pic-background {
-        left: 50px ;
-        // left: 0
-    }
-    .navy .pictureHeading, .pictureSubtitle{
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-    }
+  .navy .primary__pic-background {
+    left: 50px;
+    // left: 0
+  }
+  .navy .pictureHeading,
+  .pictureSubtitle {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 784px) {
-    .staffDirectoryWrapper{
-        background-repeat: repeat;
-        padding: 0em 5em 0 5em;
-        transition: all 0.3s ease-out;
-    }
+  .staffDirectoryWrapper {
+    background-repeat: repeat;
+    width: 70%;
+    margin: auto;
+    transition: all 0.3s ease-out;
+  }
 
-    .aboutStaff{
-        text-align: start;
-        margin-left: 20%;
-        transition: all 0.3s ease-out;
-    }
+  .aboutStaff {
+    text-align: start;
+    margin-left: 20%;
+    transition: all 0.3s ease-out;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-    .staffDirectoryWrapper{
-        padding: 0em 12em;
-        transition: all 0.3s ease-out;
-    }
+  .staffDirectoryWrapper {
+    padding: 0em 12em;
+    transition: all 0.3s ease-out;
+  }
 }

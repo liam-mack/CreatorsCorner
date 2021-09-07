@@ -4,7 +4,7 @@ import GridComponent from "../../components/GridComponent/GridComponent";
 import ServiceList from "../../components/ServiceList/ServiceList";
 import BannerImage from "../../components/BannerImage/BannerImage";
 import Footer from "../../components/Footer2/Footer";
-import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive } from "./HomeData";
+import {homeObjOne, aboutObjThree, homeObjTwo, homeObjThree, homeObjFour, homeObjFive } from "./HomeData";
 import "./Home.scss";
 
 

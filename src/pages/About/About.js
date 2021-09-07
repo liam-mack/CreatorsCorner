@@ -32,21 +32,21 @@ function About() {
       <PrimaryComponent {...aboutObjOne} />
       <PrimaryComponent {...aboutObjTwo} />
       <PrimaryComponent {...aboutObjThree} />
-        <div className="staffDirectoryWrapper">
-          <PrimaryComponent {...aboutObjFour} />
-          <StaffDirectory staff={exec} />
+      <div className="staffDirectoryWrapper">
+        <PrimaryComponent {...aboutObjFour} />
+        <StaffDirectory staff={exec} />
       </div>
       <div className="staffDirectoryWrapper">
         <PrimaryComponent {...aboutObjFive} />
         <StaffDirectory staff={design} />
       </div>
       <div className="staffDirectoryWrapper">
-        <PrimaryComponent {...aboutObjSix} />
-        <StaffDirectory staff={develop} />
-      </div>
-      <div className="staffDirectoryWrapper">
         <PrimaryComponent {...aboutObjSeven} />
         <StaffDirectory staff={marketing} />
+      </div>
+      <div className="staffDirectoryWrapper">
+        <PrimaryComponent {...aboutObjSix} />
+        <StaffDirectory staff={develop} />
       </div>
       <PrimaryComponent {...aboutObjEight} />
       <Footer />

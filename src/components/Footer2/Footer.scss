@@ -1,5 +1,5 @@
-$navy: #2B323F;
-$cyan: #CBD5D6;
+$navy: #2b323f;
+$cyan: #cbd5d6;
 $peach: #d97d6c;
 $grey: #dfd8d5;
 $black: #000000;
@@ -28,7 +28,7 @@ $white: #ffffff;
 .footerLinks {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .footer-link-wrapper {
@@ -37,7 +37,8 @@ $white: #ffffff;
   // min-width: 0px
 }
 .footer-link-wrapper:nth-child(1) {
-  min-width: 250px
+  min-width: 250px;
+  margin: 0 2em;
 }
 
 .footer-link-items {
@@ -58,13 +59,13 @@ $white: #ffffff;
   color: $navy;
 }
 
-.footerNav h2{
-  font-size: 19px !important
+.footerNav h2 {
+  font-size: 19px !important;
 }
 
-.subFooter{
+.subFooter {
   font-size: 12px;
-  width: 100%
+  width: 100%;
 }
 
 .footer-link-items a {
@@ -86,10 +87,9 @@ $white: #ffffff;
   color: #b1b1b1;
 }
 
-
 // Footer Socials (First Column)
 
-.socials{
+.socials {
   margin: auto;
 }
 
@@ -111,15 +111,26 @@ $white: #ffffff;
   margin-right: 0.5em;
 }
 
-.footer-email{
+.footer-email {
+  -webkit-user-select: text;  /* Chrome all / Safari all */
+  -moz-user-select: text;     /* Firefox all */
+  -ms-user-select: text;      /* IE 10+ */
+  user-select: text;
+  font-family: "AvenirRoman";
   text-decoration: underline !important;
+  border: none;
+  background-color: initial;
+  // pointer-events: none;
+  &:hover{
+    color: $peach
+  }
 }
 
 .footer-socials-img {
   margin: 0;
 }
 
-.footer-logo-img{
+.footer-logo-img {
   margin-right: 1em;
   // max-height: 82px;
   max-width: 36%;
@@ -146,8 +157,8 @@ $white: #ffffff;
   .footer-link-wrapper:nth-child(1) {
     min-width: 100%;
   }
-  .socials{
-    width: 50%;
+  .footer-link-items {
+    text-align: center;
   }
   .footer-link-wrapper {
     flex-direction: column;
@@ -156,21 +167,17 @@ $white: #ffffff;
   .social-media-wrap {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .socials{
-    width: 50%;
-    // margin: auto;
+  .footerHeaderWrapper {
+    width: 100%;
+    text-align: center;
   }
 }
 
-@media screen and (min-width: 768px) {
-  
-.footer-logo-img {
-  margin-top: 2em;
-}
 
+@media screen and (min-width: 768px) {
+  .footer-logo-img {
+    margin-top: 2em;
+  }
 }
 
 // @media screen and (min-width: 800px) {

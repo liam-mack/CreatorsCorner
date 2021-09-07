@@ -12,6 +12,7 @@ $white: #ffffff;
     margin: 0;
     margin-bottom: 1em;
     max-width: 200px
+    // width: 20%;
 }
 
 
@@ -19,6 +20,7 @@ $white: #ffffff;
     max-width: 200px;
     border-radius: 50%;
     margin-bottom: 1.5em;
+    // width: fit-content;
 }
 
 .staff-position {
@@ -63,7 +65,7 @@ $white: #ffffff;
 }
 
 
-@media screen and (min-width: 784px) {
+@media screen and (min-width: 1160px) {
     .staff-card {
         min-width: calc(100%/4) !important;
         background-color: inherit !important;
