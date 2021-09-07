@@ -73,3 +73,26 @@
         font-size: 20px
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .introRow:nth-child(1){
+        display: block !important;
+    }
+
+    .organizationLogo{
+        display: block;
+        margin: auto;
+    }
+
+    .introRow + .introRow {
+        margin-bottom: -1.25em;
+        padding: 2em 0;
+    }
+    .introServices, .portfolioTestimonial {
+        margin: auto;
+    }
+
+    .introServices{
+        flex-basis: 30%;
+    }
+}

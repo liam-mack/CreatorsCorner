@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import BannerImage from "../../../components/BannerImage/BannerImage";
 import ScrollToTopOnMount from "../../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../../components/Footer2/Footer";
@@ -30,6 +31,7 @@ function OCRCC() {
           src="portfolioImages/ocrcc/ocrccTemplates.png"
           data-aos="fade-left"
           data-aos-duration="1000"
+          alt="OCRCC Marketing Templates"
         />
       </div>
       <div
@@ -44,6 +46,10 @@ function OCRCC() {
           Get in touch with our team to see how we can use our skills and
           services to help your organization grow!
         </p>
+      </div>
+      <div className="portfolioSlides">
+      <HashLink to="/Projects-OCH#top">Previous Client</HashLink>
+        <HashLink to="/Projects-Interval#top">Next Client</HashLink>
       </div>
       <Footer />
     </div>

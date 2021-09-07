@@ -1,5 +1,6 @@
 import React from "react";
 import BannerImage from "../../../components/BannerImage/BannerImage";
+import { HashLink } from "react-router-hash-link";
 import ScrollToTopOnMount from "../../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../../components/Footer2/Footer";
 import PortfolioIntro from "../../../components/PortfolioIntro/PortfolioIntro";
@@ -16,17 +17,32 @@ function CTSACT() {
         name="hero"
         banner="Projects"
         alt="Creator's Corner Portfolio Banner"
-        title="Centre for Treatment of Sexual Abuse and Childhood Trauma"
+        title="CENTRE FOR TREATMENT OF SEXUAL ABUSE AND CHILDHOOD TRAUMA"
         desc="January 2021"
       />
       <PortfolioIntro {...ctsactObj} />
-      <PortfolioDivider text="PROJECT 1: LOGO DESIGN" bgColour="#2EC4E9" />
-     
       <PortfolioDivider
-        text="PROJECT 2: GRAPHIC DESIGN - BANNER & FLYERS"
-        bgColour="#2EC4E9"
+        text="PROJECT 1: BRANDING & WEBSITE DESIGN"
+        bgColour="#0DB1AB"
       />
-     
+      <div className="portfolioContainer">
+        <img
+          className="blockGraphic"
+          src="portfolioImages/ctsact/ctsactPalette.png"
+          style={{ marginBottom: "3em" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="CTSACT Branding Palette"
+        />
+        <img
+          className="blockGraphic"
+          src="portfolioImages/ctsact/websiteTemp.png"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="CTSACT Website Landing"
+        />
+      </div>
+
       <div
         className="buttonWrapper"
         data-aos="flip-left"
@@ -39,6 +55,10 @@ function CTSACT() {
           Get in touch with our team to see how we can use our skills and
           services to help your organization grow!
         </p>
+      </div>
+      <div className="portfolioSlides">
+        <HashLink to="Projects-Interval#top">Previous Client</HashLink>
+        <HashLink to="Projects-FOE#top">Next Client</HashLink>
       </div>
       <Footer />
     </div>

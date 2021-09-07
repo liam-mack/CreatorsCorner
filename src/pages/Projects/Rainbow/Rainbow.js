@@ -32,6 +32,7 @@ function Rainbow() {
           src="portfolioImages/rainbow/rainbowSM.png"
           data-aos="fade-up"
           data-aos-duration="1000"
+          alt="Rainbow Kidschool Social Media Templates"
         />
       </div>
       <PortfolioDivider
@@ -44,6 +45,7 @@ function Rainbow() {
           src="portfolioImages/rainbow/rainbowSite.png"
           data-aos="fade-left"
           data-aos-duration="1000"
+          alt="Rainbow Kidschool Custom Website"
         />
       </div>
 
@@ -61,8 +63,8 @@ function Rainbow() {
         </p>
       </div>
       <div className="portfolioSlides">
-        <HashLink>Previous Client</HashLink>
-        <HashLink>Next Client</HashLink>
+        <HashLink to="/Projects-Citadel#top">Previous Client</HashLink>
+        <HashLink to="/Projects-OCH#top">Next Client</HashLink>
       </div>
       <Footer />
     </div>

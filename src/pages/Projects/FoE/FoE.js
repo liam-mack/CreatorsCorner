@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import BannerImage from "../../../components/BannerImage/BannerImage";
 import ScrollToTopOnMount from "../../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../../components/Footer2/Footer";
@@ -16,17 +17,24 @@ function FoE() {
         name="hero"
         banner="Projects"
         alt="Creator's Corner Portfolio Banner"
-        title="Friends of the Earth"
+        title="FRIENDS OF THE EARTH"
         desc="January 2021"
       />
       <PortfolioIntro {...foeObj} />
-      <PortfolioDivider text="PROJECT 1: LOGO DESIGN" bgColour="#2EC4E9" />
-     
       <PortfolioDivider
-        text="PROJECT 2: GRAPHIC DESIGN - BANNER & FLYERS"
-        bgColour="#2EC4E9"
+        text="PROJECT 1: SOCIAL MEDIA TEMPLATES"
+        bgColour="#32673D"
       />
-     
+      <div className="portfolioContainer">
+        <img
+          className="blockGraphic"
+          src="portfolioImages/foe/foeTemplates.png"
+          style={{ marginBottom: "3em" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="Friends of the Earth Posting Templates"
+        />
+      </div>
       <div
         className="buttonWrapper"
         data-aos="flip-left"
@@ -39,6 +47,10 @@ function FoE() {
           Get in touch with our team to see how we can use our skills and
           services to help your organization grow!
         </p>
+      </div>
+      <div className="portfolioSlides">
+        <HashLink to="/Projects-CTSACT#top">Previous Client</HashLink>
+        <HashLink to="/Projects-ARC#top">Next Client</HashLink>
       </div>
       <Footer />
     </div>

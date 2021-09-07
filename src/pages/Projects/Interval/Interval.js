@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import BannerImage from "../../../components/BannerImage/BannerImage";
 import ScrollToTopOnMount from "../../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../../components/Footer2/Footer";
@@ -16,17 +17,46 @@ function Interval() {
         name="hero"
         banner="Projects"
         alt="Creator's Corner Portfolio Banner"
-        title="Interval House of Ottawa"
+        title="INTERVAL HOUSE OF OTTAWA"
         desc="January 2021"
       />
       <PortfolioIntro {...intervalObj} />
-      <PortfolioDivider text="PROJECT 1: LOGO DESIGN" bgColour="#2EC4E9" />
-     
       <PortfolioDivider
-        text="PROJECT 2: GRAPHIC DESIGN - BANNER & FLYERS"
-        bgColour="#2EC4E9"
+        text="PROJECT 1: BRANDING & SOCIAL MEDIA TEMPLATES"
+        bgColour="#71648C"
       />
-     
+
+      <div className="portfolioContainer">
+        <img
+          className="blockGraphic"
+          src="portfolioImages/interval/intervalPalette.png"
+          style={{ marginBottom: "3em" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="Interval House Branding Palette"
+        />
+        <img
+          className="blockGraphic"
+          src="portfolioImages/interval/intervalTemplates.png"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          alt="Interval House Marketing Templates"
+        />
+      </div>
+      <PortfolioDivider
+        text="PROJECT 2: NEWSLETTER TEMPLATES"
+        bgColour="#71648C"
+      />
+      <div className="portfolioContainer">
+        <img
+          className="blockGraphic"
+          src="portfolioImages/interval/intervalNewsletter.png"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          alt="Interval House Newsletters"
+        />
+      </div>
+
       <div
         className="buttonWrapper"
         data-aos="flip-left"
@@ -39,6 +69,10 @@ function Interval() {
           Get in touch with our team to see how we can use our skills and
           services to help your organization grow!
         </p>
+      </div>
+      <div className="portfolioSlides">
+        <HashLink to="/Projects-OCRCC#top">Previous Client</HashLink>
+        <HashLink to="/Projects-CTSACT#top">Next Client</HashLink>
       </div>
       <Footer />
     </div>

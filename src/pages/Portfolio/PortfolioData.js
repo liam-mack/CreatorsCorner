@@ -19,7 +19,7 @@ export const projectObjOne = {
     "/Projects-Interval",
     "/Projects-CTSACT",
     "/Projects-FOE",
-    "/Projects-Citadel",
+    "/Projects-ARC",
   ],
   alt: [
     "Citadel Canine Portfolio",
