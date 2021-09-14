@@ -13,7 +13,7 @@ function PortfolioIntro({
 }) {
   return (
     <div className="portfolioIntro">
-              <HashLink to="/Portfolio#top">
+              <HashLink className="portfolioBack" to="/Portfolio#top">
                 Back to Portfolio
               </HashLink>
       <div className="portfolioContainer">

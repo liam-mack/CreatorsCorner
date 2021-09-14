@@ -37,12 +37,12 @@ function About() {
       <div className="container">
         <h1 className="newsTitle">Page 3</h1>
       </div>
-      <div className="portfolioContainer eventSection" id="upcoming">
+      {/* <div className="portfolioContainer eventSection" id="upcoming">
         <h1 className="eventSection-header">UPCOMING EVENTS</h1>
         <div className="upcomingWrapper">
-          {/* <UpcomingEvent day="16" title="Team Meeting"/>
+          <UpcomingEvent day="16" title="Team Meeting"/>
           <UpcomingEvent day="23" title="Team Meeting"/>
-          <UpcomingEvent day="23" title="Jay Andrews/Creator's Corner"/> */}
+          <UpcomingEvent day="23" title="Jay Andrews/Creator's Corner"/>
         </div>
         <Button
           buttonColour="calendarBtn"
@@ -72,7 +72,7 @@ function About() {
             ></iframe>{" "}
           </div>
         </Modal>
-      </div>
+      </div> */}
       <PrimaryComponent {...eventsObjOne}/>
       <div className="staffDirectoryWrapper peach">
         <StaffDirectory staff={speakers} />

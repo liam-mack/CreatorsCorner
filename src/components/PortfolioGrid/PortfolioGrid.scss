@@ -9,6 +9,15 @@ $navy: #2a3240;
 //   justify-content: space-between !important;
 // }
 
+
+.portfolioContainerNarrow{
+  padding: 0 5em;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+  text-align: center;
+}
+
 .portfolioContainer {
   // padding: 5em;
   // margin-right: auto;
@@ -20,7 +29,7 @@ $navy: #2a3240;
   }
 }
 
-.portfolioDivider + .portfolioContainer {
+.portfolioDivider + .portfolioContainer, .portfolioDivier + .portfolioContainerNarrow {
   text-align: center;
 
   img {
