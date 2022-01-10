@@ -83,7 +83,7 @@ export const homeObjThree = {
   buttonLabel: "Apply Here",
   buttonLinks: [
     "https://docs.google.com/forms/d/1iezmvx-p8Oi1eJL_WFWzDW34HvM4gguCIcWl2R7eZDE/edit?usp=sharing",
-    "https://docs.google.com/forms/d/e/1FAIpQLSe_yaJA3kVgX21Q4KHDNTk9cEStR0lzqVHiK7s70Ae9L4AeMA/viewform",
+    "https://forms.gle/JdDJaysygkn89Zfq6",
   ],
   buttonColour: "pinkBtn",
   externalLink: true,
