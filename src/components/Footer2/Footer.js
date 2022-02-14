@@ -3,9 +3,12 @@ import { NavLink, Link } from "react-router-dom";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 import "./Footer.scss";
 
-function Footer() {
+function Footer({hasApplication}) {
+  // const hasApplication = application;
+
   return (
     <div className="footerContainer">
+    {hasApplication && <div class="" id="openCharter"><div class="container"><h1 class="top-line">OPEN A CHAPTER AT YOUR SCHOOL</h1><div class="row primary__hero-row"><div class="col"><div class="primary__hero-text-wrapper"><p class="primary__hero-body aos-init aos-animate" data-aos="fade-down">Are you passionate about our mission? Are you interested in opening a Creator's Corner chapter at your school? We believe we can have an even bigger impact if we work together across the nation. Get in touch with our founder to get started!</p><p class="primary__hero-body aos-init aos-animate" data-aos="fade-down"></p><p class="primary__hero-body aos-init aos-animate" data-aos="fade-down"></p><p class="primary__hero-body aos-init aos-animate" data-aos="fade-down"></p><p class="primary__hero-body aos-init aos-animate" data-aos="fade-down"></p></div></div></div><div class="buttonWrapper"><a href="/Contact#top"><button class="btn btn--primary btn--medium navyBtn undefined">Contact</button></a></div></div></div>}
       <div className="footerLinks">
         <div className="footer-link-wrapper">
           <div className="footer-link-items socials">

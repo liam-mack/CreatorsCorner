@@ -3,7 +3,7 @@ import BannerImage from "../../components/BannerImage/BannerImage";
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import GridComponent from "../../components/GridComponent/GridComponent";
 import FauxList from "../../components/FauxList/FauxList";
-import { applyObjOne, applyObjTwo, applyObjThree, applyObjFour, applyObjFive } from "./ApplyData";
+import { applyObjOne, applyObjTwo, applyObjThree, applyObjFour, applyObjFive, applyObjSix } from "./ApplyData";
 import Footer from "../../components/Footer2/Footer";
 import "./Apply.scss"
 
@@ -21,8 +21,8 @@ function Staff() {
       <PrimaryComponent {...applyObjTwo}></PrimaryComponent>
       <PrimaryComponent {...applyObjThree}></PrimaryComponent>
       <FauxList {...applyObjFour}></FauxList>
-      <PrimaryComponent {...applyObjFive}></PrimaryComponent>
-      <Footer />
+      {/* <PrimaryComponent {...applyObjFive}></PrimaryComponent> */}
+      <Footer {...applyObjSix} />
     </div>
   );
 }

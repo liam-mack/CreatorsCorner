@@ -5,6 +5,11 @@ $grey: #dfd8d5;
 $black: #000000;
 $white: #ffffff;
 
+.footerContainer .buttonWrapper{
+  margin-top: 0 !important;
+  // margin-bottom: 2em !important;
+}
+
 .footerContainer {
   background-color: $grey;
   padding: 2em 0 2em 0;
@@ -38,7 +43,7 @@ $white: #ffffff;
 }
 .footer-link-wrapper:nth-child(1) {
   min-width: 250px;
-  margin: 0 2em;
+  // margin: 0 2em;
 }
 
 .footer-link-items {
@@ -97,6 +102,10 @@ $white: #ffffff;
   display: flex;
   max-width: 160px;
   margin-top: 1em;
+
+  + .footer-row {
+    margin: 1em auto 0 auto !important;
+  }
 }
 
 .footer-img-row {

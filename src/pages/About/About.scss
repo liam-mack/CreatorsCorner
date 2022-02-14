@@ -38,9 +38,9 @@
   text-align: left !important;
 }
 
-.aboutPage .pictureSubtitle {
-  text-align: left !important;
-}
+// .aboutPage .pictureSubtitle {
+//   text-align: left !important;
+// }
 
 .staffDirectoryWrapper {
   display: flex;
@@ -56,6 +56,7 @@
 
 #letter img {
   max-height: initial;
+  margin: 1em auto !important;
 }
 
 .aboutStaff {

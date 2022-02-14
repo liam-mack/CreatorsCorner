@@ -92,3 +92,9 @@ export const applyObjFive = {
   buttonLink: "/Contact",
   buttonColour: "navyBtn",
 };
+
+export const applyObjSix = {
+  hasApplication: true,
+}
+
+

@@ -26,19 +26,22 @@ $peach: #D97D6C;
 #slide0 {
     background-color: $peach;
     color: #ffffff;
+    
+    .slideImg{
+        margin-top: 2em;
+    }
 }
 
 #slide1 {
     background-color: #DFD8D5;
     color: #000000;
+
 }
 
 #slide2 {
     background-color: #CBD5D6;
     color: #000000;
-    .slideImg{
-        margin-top: 0 ;
-    }
+
 }
 
 %btn-styles{

@@ -16,6 +16,7 @@ function PortfolioGrid({
   sectionId,
 }) {
   return (
+    <>
     <div className="portfolioComponent" id={sectionId}>
       <div className="portfolioContainer">
         {rows.map(function (rowNumber, idx) {
@@ -71,7 +72,11 @@ function PortfolioGrid({
           );
         })}
         {/* {buttonLink && ( */}
-        <div
+
+      </div>
+
+    </div>
+    <div
           className="buttonWrapper"
           data-aos="flip-left"
           data-aos-duration="1500"
@@ -84,8 +89,7 @@ function PortfolioGrid({
             services to help your organization grow!
           </p>
         </div>
-      </div>
-    </div>
+  </>
   );
 }
 
